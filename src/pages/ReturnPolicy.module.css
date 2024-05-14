@@ -1,0 +1,217 @@
+.probioticsalways,
+.products {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.probioticsalways {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.products {
+  display: inline-block;
+  min-width: 42px;
+}
+.productsWrapper {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products1 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 84px;
+}
+.productsContainer {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products2 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 84px;
+}
+.productsFrame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+  white-space: nowrap;
+}
+.products3 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 42px;
+}
+.frameDiv {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products4 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 104px;
+}
+.productsWrapper1 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  white-space: nowrap;
+}
+.instanceParent {
+  width: 596px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  font-size: 16px;
+}
+.userIcon,
+.userIcon1 {
+  height: 29px;
+  width: 29px;
+  position: relative;
+  border-radius: 42.59px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.userIcon1 {
+  height: 36px;
+  width: 36px;
+  border-radius: 52.88px;
+}
+.probioticsalwaysParent,
+.userParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.userParent {
+  width: 88px;
+}
+.probioticsalwaysParent {
+  align-self: stretch;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  gap: 20px;
+  max-width: 100%;
+}
+.frameChild {
+  height: 12.5px;
+  width: 12.5px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.returnPolicyInner {
+  width: 224.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.instanceWrapperParent,
+.returnPolicy {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.instanceWrapperParent {
+  margin: 0 !important;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  gap: 112px;
+  max-width: 100%;
+  z-index: 1;
+}
+.returnPolicy {
+  height: 2949px;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 84px 192px 2813px;
+  box-sizing: border-box;
+  gap: 5571px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: "IBM Plex Mono";
+}
+@media screen and (max-width: 1525px) {
+  .returnPolicy {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .instanceParent {
+    display: none;
+  }
+  .instanceWrapperParent {
+    gap: 56px;
+  }
+  .returnPolicy {
+    gap: 2785px;
+    padding-left: 96px;
+    padding-right: 96px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .instanceWrapperParent {
+    gap: 28px;
+  }
+  .returnPolicy {
+    gap: 1393px;
+    padding-left: 48px;
+    padding-right: 48px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .probioticsalways {
+    font-size: 19px;
+    line-height: 26px;
+  }
+}

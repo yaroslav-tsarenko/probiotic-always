@@ -1,0 +1,1295 @@
+.instanceChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #70a026;
+}
+.groupIcon {
+  height: 79.85%;
+  width: 80.65%;
+  top: 20.15%;
+  right: 9.78%;
+  bottom: 0;
+  left: 9.57%;
+}
+.groupIcon,
+.groupIcon1,
+.groupIcon2,
+.groupIcon3 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon1 {
+  height: 30.47%;
+  width: 30%;
+  top: 6.39%;
+  right: 35%;
+  bottom: 63.14%;
+  left: 35%;
+  z-index: 1;
+}
+.groupIcon2,
+.groupIcon3 {
+  height: 100%;
+  width: 29.57%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 70.43%;
+}
+.groupIcon3 {
+  right: 70.43%;
+  left: 0;
+}
+.group,
+.groupIcon4 {
+  position: absolute;
+  height: 29.98%;
+  width: 100%;
+  top: 58.72%;
+  right: 0;
+  bottom: 11.3%;
+  left: 0;
+  z-index: 1;
+}
+.groupIcon4 {
+  height: 84.03%;
+  width: 63.7%;
+  top: 0;
+  right: 5.22%;
+  bottom: 15.97%;
+  left: 31.09%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.groupParent,
+.probioticsalways {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.groupParent {
+  height: 40.7px;
+  width: 46px;
+}
+.probioticsalways {
+  line-height: 18px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.probioticsalwaysWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 11.3px 0 0;
+}
+.frameGroup,
+.frameWrapper,
+.probioticsalwaysWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frameGroup {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 16.5px;
+}
+.frameWrapper {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 5.3px;
+}
+.products {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 39px;
+}
+.productsWrapper {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.products1 {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 77px;
+}
+.productsContainer {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.products2 {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 77px;
+}
+.productsFrame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  white-space: nowrap;
+}
+.products3 {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 39px;
+}
+.frameDiv {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.products4 {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 96px;
+}
+.instanceParent,
+.productsWrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productsWrapper1 {
+  background-color: transparent;
+  padding: 10px;
+  white-space: nowrap;
+}
+.instanceParent {
+  width: 595.6px;
+  gap: 41.9px;
+  max-width: 100%;
+  font-size: 16px;
+  font-family: "IBM Plex Mono";
+}
+.userIcon {
+  width: 29px;
+  height: 29px;
+  position: relative;
+  border-radius: 42.59px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.userWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.5px 0 0;
+}
+.userIcon1 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  border-radius: 52.88px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameContainer,
+.frameParent1 {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameContainer {
+  width: 87.9px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 8px;
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 1536px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+  z-index: 1;
+}
+.productDetails3Inner,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  justify-content: center;
+  padding: 14px 20px;
+  position: relative;
+  text-align: left;
+  font-size: 25.8px;
+  color: #fff;
+  font-family: "Proxima Nova";
+}
+.productDetails3Inner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 4px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.keyFeatures {
+  margin: 0;
+  width: 308px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.keyFeaturesWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+}
+.frameChild {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+}
+.vitaminDSunrise {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: calc(100% - 37px);
+}
+.frameParent5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.elevateYourMood {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.elevateYourMoodAndImmunityWrapper,
+.groupDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.elevateYourMoodAndImmunityWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 37px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.groupDiv {
+  width: 387px;
+  flex-direction: column;
+  gap: 11px;
+}
+.frameItem {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+}
+.energizingB12Infusion {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: calc(100% - 37px);
+}
+.frameParent7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.experienceANatural {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.experienceANaturalEnergyLiWrapper,
+.frameParent6 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.experienceANaturalEnergyLiWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 37px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.frameParent6 {
+  width: 387px;
+  flex-direction: column;
+  gap: 11px;
+}
+.frameInner {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+}
+.adaptogenicStressRelief {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: calc(100% - 37px);
+}
+.frameParent9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.combatStressWith {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.combatStressWithAdaptogenicWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 0 37px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.combatStressWithAdaptogenicWrapper,
+.frameParent3,
+.frameParent4,
+.frameParent8 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent8 {
+  width: 387px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 11px;
+}
+.frameParent3,
+.frameParent4 {
+  align-self: stretch;
+}
+.frameParent4 {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 22px;
+}
+.frameParent3 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 44px;
+}
+.frameChild1 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+}
+.antioxidantRichFormula {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: calc(100% - 37px);
+}
+.frameParent12 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.protectAgainstOxidative {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameParent11,
+.protectAgainstOxidativeStreWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.protectAgainstOxidativeStreWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 37px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.frameParent11 {
+  width: 387px;
+  flex-direction: column;
+  gap: 11px;
+}
+.frameChild2 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+}
+.immuneDefenseMatrix {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: calc(100% - 37px);
+}
+.frameParent14 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.fortifyYourImmune {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.fortifyYourImmuneSystemWitWrapper,
+.frameParent13 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fortifyYourImmuneSystemWitWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 37px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.frameParent13 {
+  width: 387px;
+  flex-direction: column;
+  gap: 11px;
+}
+.frameChild3 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+}
+.dailyWellnessEssential {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: calc(100% - 37px);
+}
+.frameParent16 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.makeSunriseWellness {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameParent15,
+.makeSunriseWellnessDropsAWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.makeSunriseWellnessDropsAWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 37px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.frameParent15 {
+  width: 387px;
+  flex-direction: column;
+  gap: 11px;
+}
+.frameParent10 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 22px;
+}
+.frameParent10,
+.frameParent2,
+.productDetails3Child {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent2 {
+  width: 1535px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 103px;
+}
+.productDetails3Child {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 112px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 32px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+.discoverBestsellers {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.elevateYourWellBeing {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.elevateYourWellBeingWithNWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 68px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.discoverBestsellersParent,
+.elevateYourWellBeingWithNWrapper,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.discoverBestsellersParent {
+  width: 653px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 0 29px;
+  box-sizing: border-box;
+}
+.rectangleDiv,
+.rectangleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+.rectangleDiv {
+  background-color: #f0f8ec;
+}
+.rectangleIcon {
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleGroup {
+  align-self: stretch;
+  height: 341px;
+  position: relative;
+}
+.greenVitalityBlend {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.revitalizeWithNutrientRich {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.greenVitalityBlendParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.div {
+  line-height: 120%;
+  display: inline-block;
+  min-width: 70px;
+  white-space: nowrap;
+}
+.div,
+.div1,
+.starIcon {
+  position: relative;
+}
+.starIcon {
+  height: 23px;
+  width: 23px;
+  border-radius: 1px;
+}
+.div1 {
+  flex: 1;
+  line-height: 24px;
+}
+.parent,
+.starParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.starParent {
+  width: 61px;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+.parent {
+  align-items: flex-start;
+  gap: 28px;
+}
+.frameButton {
+  height: 37px;
+  flex: 1;
+  min-width: 113px;
+}
+.frameChild4 {
+  height: 37px;
+  width: 151px;
+}
+.frameParent21 {
+  width: 337px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.button {
+  align-self: stretch;
+  height: 56px;
+}
+.frameParent19,
+.frameParent20 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.frameParent20 {
+  width: 349px;
+  max-width: 100%;
+}
+.frameParent19 {
+  width: 364px;
+  flex-shrink: 0;
+}
+.frameChild5,
+.frameChild6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+.frameChild5 {
+  background-color: #f0f8ec;
+}
+.frameChild6 {
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleContainer {
+  align-self: stretch;
+  height: 341px;
+  position: relative;
+}
+.omegaBlissCapsules {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.essentialFattyAcids {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.omegaBlissCapsulesParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.div2 {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 70px;
+  white-space: nowrap;
+}
+.frameChild7 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+  border-radius: 1px;
+}
+.div3 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.container,
+.starGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.starGroup {
+  width: 61px;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+.container {
+  align-items: flex-start;
+  gap: 28px;
+}
+.frameChild8 {
+  height: 37px;
+  flex: 1;
+}
+.frameChild9 {
+  height: 37px;
+  width: 118px;
+}
+.frameParent24 {
+  width: 265px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.button1 {
+  align-self: stretch;
+  height: 56px;
+}
+.frameParent22,
+.frameParent23 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.frameParent23 {
+  width: 349px;
+  max-width: 100%;
+}
+.frameParent22 {
+  width: 364px;
+  flex-shrink: 0;
+}
+.frameChild10,
+.frameChild11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+.frameChild10 {
+  background-color: #f0f8ec;
+}
+.frameChild11 {
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleParent1 {
+  align-self: stretch;
+  height: 341px;
+  position: relative;
+}
+.sunriseWellnessDrops {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.startYourDay {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.sunriseWellnessDropsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.div4 {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 70px;
+  white-space: nowrap;
+}
+.frameChild12 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+  border-radius: 1px;
+}
+.div5 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.parent1,
+.starContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.starContainer {
+  width: 61px;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+.parent1 {
+  align-items: flex-start;
+  gap: 28px;
+}
+.frameChild13 {
+  height: 37px;
+  width: 134px;
+}
+.frameChild14 {
+  height: 37px;
+  flex: 1;
+}
+.frameParent27 {
+  width: 293px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.button2 {
+  align-self: stretch;
+  height: 56px;
+}
+.frameParent25,
+.frameParent26 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.frameParent26 {
+  width: 349px;
+  max-width: 100%;
+}
+.frameParent25 {
+  width: 364px;
+  flex-shrink: 0;
+}
+.frameChild15,
+.frameChild16 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+.frameChild15 {
+  background-color: #f0f8ec;
+}
+.frameChild16 {
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleParent2 {
+  align-self: stretch;
+  height: 341px;
+  position: relative;
+}
+.probioticHarmony {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.gutHealthChampion {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.probioticHarmonyParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.div6 {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 70px;
+  white-space: nowrap;
+}
+.frameChild17 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+  border-radius: 1px;
+}
+.div7 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.parent2,
+.starParent1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.starParent1 {
+  width: 61px;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+.parent2 {
+  align-items: flex-start;
+  gap: 28px;
+}
+.frameChild18,
+.frameChild19 {
+  height: 37px;
+  flex: 1;
+}
+.frameParent30 {
+  width: 328px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.button3 {
+  align-self: stretch;
+  height: 56px;
+}
+.frameParent28,
+.frameParent29 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.frameParent29 {
+  width: 349px;
+  max-width: 100%;
+}
+.frameParent28 {
+  width: 364px;
+  flex-shrink: 0;
+}
+.frameParent17,
+.frameParent18 {
+  width: 1536px;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent18 {
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 26.7px;
+  text-align: left;
+  font-size: 22px;
+}
+.frameParent17 {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 44px;
+}
+.frameSection,
+.productDetails3 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.frameSection {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 112px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 42px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+.productDetails3 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 4px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .frameParent4 {
+    justify-content: center;
+  }
+  .frameParent10,
+  .frameParent4 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .instanceParent {
+    display: none;
+  }
+  .frameParent {
+    width: 940.3999999999942px;
+  }
+  .frameSection {
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .instanceParent {
+    gap: 21px;
+  }
+  .keyFeatures {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .frameParent3 {
+    gap: 22px;
+  }
+  .frameParent2 {
+    gap: 51px;
+  }
+  .productDetails3Child {
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+  .discoverBestsellers {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .elevateYourWellBeingWithNWrapper {
+    padding-left: 34px;
+    padding-right: 34px;
+    box-sizing: border-box;
+  }
+  .frameParent17 {
+    gap: 22px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .keyFeatures {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .adaptogenicStressRelief,
+  .antioxidantRichFormula,
+  .dailyWellnessEssential,
+  .energizingB12Infusion,
+  .immuneDefenseMatrix,
+  .vitaminDSunrise {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .frameParent2 {
+    gap: 26px;
+  }
+  .discoverBestsellers {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .div,
+  .div2,
+  .div4,
+  .div6,
+  .greenVitalityBlend,
+  .omegaBlissCapsules,
+  .probioticHarmony,
+  .sunriseWellnessDrops {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .frameSection {
+    padding-bottom: 47px;
+    box-sizing: border-box;
+  }
+}

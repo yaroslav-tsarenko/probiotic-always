@@ -1,0 +1,382 @@
+.instanceChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fcfcfc;
+}
+.groupIcon {
+  height: 79.87%;
+  width: 80.71%;
+  top: 20.13%;
+  right: 9.55%;
+  bottom: 0;
+  left: 9.74%;
+}
+.groupIcon,
+.groupIcon1,
+.groupIcon2,
+.groupIcon3 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon1 {
+  height: 30.51%;
+  width: 29.96%;
+  top: 6.36%;
+  right: 35.02%;
+  bottom: 63.14%;
+  left: 35.02%;
+  z-index: 1;
+}
+.groupIcon2,
+.groupIcon3 {
+  height: 100%;
+  width: 29.4%;
+  top: 0;
+  right: 0.19%;
+  bottom: 0;
+  left: 70.41%;
+}
+.groupIcon3 {
+  right: 70.6%;
+  left: 0;
+}
+.group,
+.groupIcon4 {
+  position: absolute;
+  height: 30.08%;
+  width: 100%;
+  top: 58.69%;
+  right: 0;
+  bottom: 11.23%;
+  left: 0;
+  z-index: 1;
+}
+.groupIcon4 {
+  height: 84.11%;
+  width: 63.67%;
+  top: 0;
+  right: 5.43%;
+  bottom: 15.89%;
+  left: 30.9%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.groupParent,
+.probioticsalways {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.groupParent {
+  height: 47.2px;
+  width: 53.4px;
+}
+.probioticsalways {
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.frameDiv,
+.probioticsalwaysWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.probioticsalwaysWrapper {
+  flex-direction: column;
+  padding: 13.6px 0 0;
+}
+.frameDiv {
+  flex-direction: row;
+  gap: 19.8px;
+  max-width: 100%;
+  color: #6e9e24;
+}
+.discoverTheSynergy {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 22px;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.yourEmail {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.yourEmailWrapper {
+  flex: 1;
+  border-radius: 8px 0 0 8px;
+  border: 1px solid #343434;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 18px 33px;
+  min-width: 135px;
+}
+.frameChild {
+  height: 72px;
+  width: 147px;
+}
+.frameParent1 {
+  width: 444px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  row-gap: 20px;
+  font-size: 16px;
+  font-family: "IBM Plex Mono";
+}
+.div {
+  min-width: 13px;
+}
+.div,
+.div1,
+.div2 {
+  position: relative;
+  letter-spacing: 0.06em;
+  line-height: 25px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.div1 {
+  width: 21px;
+  min-width: 21px;
+}
+.div2 {
+  min-width: 18px;
+}
+.frameContainer,
+.frameWrapper,
+.icon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon {
+  flex-direction: row;
+  padding: 0 6px 0 5.7px;
+  gap: 25.7px;
+  text-align: center;
+  font-size: 20.5px;
+  font-family: Inter;
+}
+.frameContainer,
+.frameWrapper {
+  flex-direction: column;
+  max-width: 100%;
+}
+.frameContainer {
+  align-self: stretch;
+  gap: 24px;
+}
+.frameWrapper {
+  width: 645px;
+  padding: 7.5px 0 0;
+  box-sizing: border-box;
+  min-width: 645px;
+}
+.aboutUs,
+.contact,
+.credit,
+.home,
+.products {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.home {
+  width: 93px;
+  display: inline-block;
+}
+.aboutUs,
+.contact,
+.credit,
+.products {
+  align-self: stretch;
+}
+.homeParent {
+  height: 205px;
+  width: 167px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 41px;
+  box-sizing: border-box;
+  gap: 12px;
+  min-width: 167px;
+}
+.howItMade,
+.privacyPolicy,
+.subscribeSave {
+  width: 165px;
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.privacyPolicy,
+.subscribeSave {
+  width: 167px;
+}
+.termsCondition {
+  width: 192px;
+  display: inline-block;
+}
+.cancellationPolicy,
+.returnPolicy,
+.termsCondition {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.cancellationPolicy {
+  align-self: stretch;
+}
+.returnPolicy {
+  width: 167px;
+  display: inline-block;
+}
+.howItMadeParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  min-width: 144px;
+}
+.frameGroup,
+.frameParent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent2 {
+  width: 445px;
+  justify-content: flex-start;
+  gap: 56px;
+  min-width: 445px;
+  font-size: 16px;
+  font-family: "IBM Plex Mono";
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: 20px;
+}
+.copyright2023Probioticsalwa {
+  font-size: 18px;
+  color: #343434;
+}
+.copyright2023ProbioticsalwaContainer {
+  width: 297px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 200%;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.copyright2023ProbioticsalwaWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 21px;
+  text-align: center;
+  font-size: 15px;
+  color: #023246;
+}
+.frameParent {
+  width: 1536px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 51.5px;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 91px 20px 91.8px;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: 29.9px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+@media screen and (max-width: 1575px) {
+  .frameParent2,
+  .frameWrapper {
+    flex: 1;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .frameParent2,
+  .frameWrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 825px) {
+  .frameDiv,
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+  .homeParent {
+    flex: 1;
+  }
+  .frameParent2 {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    gap: 26px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .probioticsalways {
+    font-size: 24px;
+    line-height: 16px;
+  }
+  .discoverTheSynergy {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .div,
+  .div1,
+  .div2 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .frameParent2 {
+    gap: 28px;
+  }
+}

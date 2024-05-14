@@ -1,0 +1,795 @@
+.frameChild,
+.frameItem {
+  position: relative;
+  display: none;
+}
+.frameChild {
+  height: 1204px;
+  width: 1920px;
+  background-color: #efefef;
+  max-width: 100%;
+}
+.frameItem {
+  align-self: stretch;
+  height: 920px;
+  border-radius: 12px;
+  background-color: #fff;
+  border: 5px solid #343434;
+  box-sizing: border-box;
+}
+.supplementFactsTitle {
+  height: 118px;
+  flex: 1;
+  max-width: 100%;
+  z-index: 1;
+}
+.supplementFactsTitleWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 4.1px;
+  box-sizing: border-box;
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.capsules,
+.servingSize1 {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.servingSize1 {
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  text-transform: uppercase;
+  min-width: 101px;
+}
+.capsules {
+  margin: 0;
+  font-size: 22px;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  min-width: 111px;
+}
+.servingSizeParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.servingsPerContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.servingCountValue {
+  position: relative;
+  font-size: 22px;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 29.1px;
+  z-index: 1;
+}
+.servingCount {
+  width: 214px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.servingInfo,
+.servingSize {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.servingSize {
+  flex: 1;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.servingInfo {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 20px 0 24px;
+  box-sizing: border-box;
+  max-width: 103%;
+  flex-shrink: 0;
+  font-size: 15px;
+}
+.amountPerServing,
+.dailyValue {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.dailyValue {
+  display: inline-block;
+  min-width: 109px;
+}
+.caloriesLabel,
+.caloriesLabelWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.caloriesLabel {
+  flex: 1;
+  border-top: 5px solid #343434;
+  padding: 12px 30px 18px;
+  gap: 65px;
+  z-index: 1;
+}
+.caloriesLabelWrapper {
+  align-self: stretch;
+  padding: 0 5px;
+}
+.calories {
+  display: inline-block;
+  min-width: 82px;
+}
+.calories,
+.perServing {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.caloriesValue,
+.perServingInfo {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.caloriesValue {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 7.9px 8px 8px 7.9px;
+  gap: 20px;
+  z-index: 1;
+  font-size: 22px;
+}
+.perServingInfo {
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+  font-size: 15px;
+}
+.energeticFuel1g,
+.nutrientValues {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 108px;
+}
+.nutrientValues {
+  width: 34px;
+  font-size: 12.7px;
+  text-align: right;
+  min-width: 34px;
+}
+.nutrientColumns {
+  align-self: stretch;
+  border-top: 0.8px solid #343434;
+  border-bottom: 0.8px solid #343434;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4px 0 3px;
+  gap: 20px;
+  z-index: 1;
+}
+.b,
+.powerCalorics1g {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 96px;
+}
+.b {
+  font-size: 12.7px;
+  line-height: 20px;
+  min-width: 23px;
+}
+.nutrientColumns1 {
+  align-self: stretch;
+  border-bottom: 0.8px solid #6d819b;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.8px 0 3px 12.7px;
+  gap: 20px;
+  z-index: 1;
+  text-align: right;
+  font-size: 12px;
+}
+.b1,
+.energyEssence1g {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 118px;
+}
+.b1 {
+  font-size: 12.7px;
+  text-align: right;
+  min-width: 18px;
+}
+.nutrientColumns2 {
+  align-self: stretch;
+  border-bottom: 0.8px solid #6d819b;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.8px 0 3px;
+  gap: 20px;
+  z-index: 1;
+}
+.b2,
+.vitalityQuotient1mg {
+  position: relative;
+  line-height: 20px;
+}
+.b2 {
+  font-size: 12.7px;
+  display: inline-block;
+  text-align: right;
+  min-width: 18px;
+}
+.nutrientColumns3 {
+  align-self: stretch;
+  border-bottom: 0.8px solid #6d819b;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.7px 0 4px;
+  gap: 20px;
+  z-index: 1;
+}
+.b3,
+.fuelIntensity1g {
+  position: relative;
+  line-height: 20px;
+}
+.b3 {
+  font-size: 12.7px;
+  display: inline-block;
+  text-align: right;
+  min-width: 18px;
+}
+.nutrientColumns4 {
+  align-self: stretch;
+  border-bottom: 0.8px solid #6d819b;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.8px 0 3px;
+  gap: 20px;
+  z-index: 1;
+}
+.b4,
+.dynamicCalories1g {
+  position: relative;
+  line-height: 16px;
+}
+.b4 {
+  font-size: 12.7px;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 21px;
+}
+.nutrientColumns5 {
+  align-self: stretch;
+  border-bottom: 0.8px solid #6d819b;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.8px 0 3px 12.7px;
+  gap: 20px;
+  z-index: 1;
+  text-align: right;
+  font-size: 12px;
+}
+.b5,
+.vigorCalories1g {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 92px;
+}
+.b5 {
+  font-size: 12.7px;
+  line-height: 20px;
+  min-width: 15px;
+}
+.nutrientColumns6 {
+  align-self: stretch;
+  border-bottom: 0.8px solid #6d819b;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.7px 0 4px 12.7px;
+  gap: 20px;
+  z-index: 1;
+  text-align: right;
+  font-size: 12px;
+}
+.b6,
+.nourishPower1g {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 110px;
+}
+.b6 {
+  font-size: 12.7px;
+  text-align: right;
+  min-width: 23px;
+}
+.nutrientColumns7 {
+  align-self: stretch;
+  height: 34.5px;
+  border-bottom: 5px solid #343434;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.7px 0 4.8px;
+  gap: 20px;
+  z-index: 1;
+}
+.nutrientRows,
+.nutrientTable {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nutrientRows {
+  flex: 1;
+  flex-direction: column;
+  gap: 7.8px;
+  max-width: 100%;
+}
+.nutrientTable {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 20px 3.4px;
+  box-sizing: border-box;
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.essentialNutrients {
+  position: relative;
+  line-height: 24px;
+}
+.vitaminSeparator {
+  position: relative;
+  font-size: 12.7px;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 18px;
+}
+.vitaminColumns {
+  align-self: stretch;
+  border-bottom: 0.8px solid #343434;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.8px 0 3px;
+  gap: 20px;
+}
+.b7,
+.vitaminC {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 63px;
+}
+.b7 {
+  font-size: 12.7px;
+  text-align: right;
+  min-width: 18px;
+}
+.vitaminColumns1,
+.vitamins {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.vitaminColumns1 {
+  border-bottom: 0.8px solid #343434;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4.8px 0 3px;
+  gap: 20px;
+  text-align: left;
+  font-size: 14px;
+}
+.vitamins {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 4px;
+  text-align: right;
+  font-size: 16px;
+}
+.calcium,
+.mineralSeparator {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 50px;
+}
+.mineralSeparator {
+  font-size: 12.7px;
+  text-align: right;
+  min-width: 23px;
+}
+.minerals {
+  align-self: stretch;
+  border-bottom: 0.8px solid #343434;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.7px 0 4px;
+  gap: 20px;
+}
+.b8,
+.iron {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 24px;
+}
+.b8 {
+  font-size: 12.7px;
+  text-align: right;
+  min-width: 18px;
+}
+.minerals1 {
+  align-self: stretch;
+  border-bottom: 5px solid #343434;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.8px 0 4.7px;
+  gap: 20px;
+}
+.frameContainer,
+.vitaminsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vitaminsParent {
+  height: 142.1px;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 1;
+}
+.frameContainer {
+  width: 477.2px;
+  flex-direction: row;
+  padding: 0 14px;
+  box-sizing: border-box;
+}
+.pureCleanseCapsules {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangleGroup,
+.supplementInfo {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.supplementInfo {
+  width: 477.2px;
+  flex-direction: row;
+  padding: 0 14px;
+  font-size: 12px;
+}
+.rectangleGroup {
+  width: 489px;
+  border-radius: 12px;
+  background-color: #fff;
+  border: 5px solid #343434;
+  flex-direction: column;
+  padding: 0 0 25px;
+  gap: 20.9px;
+  min-width: 489px;
+}
+.productInformation {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.revitalizeWithOrganic {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.productInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  font-size: 32px;
+}
+.keyIngredients {
+  position: relative;
+  line-height: 120%;
+}
+.fiSsAngleDownIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.fiSsAngleDownWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+}
+.headingRows {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameInner {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #343434;
+  box-sizing: border-box;
+}
+.headingRowsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.barleyGrass,
+.chlorella,
+.kale,
+.spirulina,
+.wheatgrass {
+  margin-bottom: 0;
+}
+.spirulinaKaleWheatgrassBarl {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.spirulinaKaleWheatgrassContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  line-height: 34px;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.usageInstructions {
+  position: relative;
+  line-height: 120%;
+}
+.fiSsAngleDownIcon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.fiSsAngleDownContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+}
+.usageInstructionsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.lineDiv {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #343434;
+  box-sizing: border-box;
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.mixOneScoop {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: 15px;
+}
+.frameGroup,
+.ingredientInstructions,
+.ingredientInstructionsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ingredientInstructions {
+  align-self: stretch;
+  gap: 32px;
+}
+.ingredientInstructionsWrapper {
+  width: 710px;
+  padding: 215px 0 0;
+  box-sizing: border-box;
+  min-width: 710px;
+  max-width: 100%;
+  font-size: 22px;
+}
+.factsTable,
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.factsTable {
+  width: 1400px;
+  background-color: #efefef;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleParent {
+  box-sizing: border-box;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: #efefef;
+  justify-content: center;
+  padding: 142px 20px;
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 112px;
+  text-align: left;
+  font-size: 14px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+@media screen and (max-width: 1750px) {
+  .ingredientInstructionsWrapper,
+  .rectangleGroup {
+    flex: 1;
+  }
+  .factsTable {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .ingredientInstructionsWrapper,
+  .rectangleGroup {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .caloriesLabel,
+  .servingSize {
+    flex-wrap: wrap;
+  }
+  .productInformation {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .ingredientInstructions {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .supplementFactsTitle {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .capsules,
+  .servingCountValue {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .caloriesLabel {
+    gap: 32px;
+  }
+  .calories,
+  .perServing {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .caloriesValue,
+  .nutrientColumns {
+    flex-wrap: wrap;
+  }
+  .productInformation {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .keyIngredients,
+  .usageInstructions {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}

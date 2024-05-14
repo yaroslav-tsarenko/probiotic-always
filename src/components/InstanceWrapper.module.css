@@ -1,0 +1,72 @@
+.frameChild,
+.returnPolicy {
+  position: relative;
+  max-width: 100%;
+}
+.frameChild {
+  height: 453px;
+  width: 1920px;
+  background-color: #f9f9f9;
+  display: none;
+}
+.returnPolicy {
+  margin: 0;
+  width: 804px;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.instanceWrapper,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  background-color: #f9f9f9;
+  flex-direction: row;
+  padding: 202px 526px 201px;
+  box-sizing: border-box;
+}
+.instanceWrapper {
+  flex-direction: column;
+  text-align: center;
+  font-size: 42px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+@media screen and (max-width: 1225px) {
+  .rectangleParent {
+    padding-left: 263px;
+    padding-right: 263px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .returnPolicy {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .rectangleParent {
+    padding-left: 131px;
+    padding-right: 131px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .returnPolicy {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .rectangleParent {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

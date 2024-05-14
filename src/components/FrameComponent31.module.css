@@ -1,0 +1,147 @@
+.probioticsalways,
+.products {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.probioticsalways {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.products {
+  display: inline-block;
+  min-width: 42px;
+}
+.productsWrapper {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products1 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 84px;
+}
+.productsContainer {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products2 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 84px;
+}
+.productsFrame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+  white-space: nowrap;
+}
+.products3 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 42px;
+}
+.frameDiv {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products4 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 104px;
+}
+.productsWrapper1 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  white-space: nowrap;
+}
+.productGrid {
+  width: 596px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  font-size: 16px;
+}
+.userIcon,
+.userIcon1 {
+  height: 29px;
+  width: 29px;
+  position: relative;
+  border-radius: 42.59px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.userIcon1 {
+  height: 36px;
+  width: 36px;
+  border-radius: 52.88px;
+}
+.probioticsalwaysParent,
+.userParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.userParent {
+  width: 88px;
+}
+.probioticsalwaysParent {
+  align-self: stretch;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  gap: 20px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: "IBM Plex Mono";
+}
+@media screen and (max-width: 1350px) {
+  .productGrid {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .probioticsalways {
+    font-size: 19px;
+    line-height: 26px;
+  }
+}

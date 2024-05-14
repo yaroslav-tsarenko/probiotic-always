@@ -1,0 +1,72 @@
+.containerChild {
+  height: 12.5px;
+  width: 12.5px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.blogListing,
+.container,
+.frameParent {
+  width: 224.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.blogListing,
+.frameParent {
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  margin: 0 !important;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  gap: 112px;
+  max-width: 100%;
+  z-index: 1;
+}
+.blogListing {
+  height: 2055px;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 84px 192px 1919px;
+  box-sizing: border-box;
+  gap: 5571px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1525px) {
+  .blogListing {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .frameParent {
+    gap: 56px;
+  }
+  .blogListing {
+    gap: 2785px;
+    padding-left: 96px;
+    padding-right: 96px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .frameParent {
+    gap: 28px;
+  }
+  .blogListing {
+    gap: 1393px;
+    padding-left: 48px;
+    padding-right: 48px;
+    box-sizing: border-box;
+  }
+}

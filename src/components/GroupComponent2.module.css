@@ -1,0 +1,85 @@
+.instanceChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #f5f0e9;
+}
+.customerReviews {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.customerReviewsWrapper {
+  width: 748px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 16px;
+}
+.frameParent {
+  width: 1536px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 44px;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 146px 20px 145.6px;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  z-index: 3;
+  text-align: center;
+  font-size: 42px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+@media screen and (max-width: 1650px) {
+  .frameGroup {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 900px) {
+  .customerReviews {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .frameParent {
+    gap: 22px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .customerReviews {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}

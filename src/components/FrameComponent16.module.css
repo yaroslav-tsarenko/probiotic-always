@@ -1,0 +1,830 @@
+.frameChild,
+.frameItem {
+  position: relative;
+  display: none;
+}
+.frameChild {
+  height: 1204px;
+  width: 1920px;
+  background-color: #efefef;
+  max-width: 100%;
+}
+.frameItem {
+  align-self: stretch;
+  height: 920px;
+  border-radius: 12px;
+  background-color: #fff;
+  border: 5px solid #343434;
+  box-sizing: border-box;
+}
+.frameInner {
+  height: 118px;
+  flex: 1;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 4.1px;
+  box-sizing: border-box;
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.capsules,
+.servingSize {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.servingSize {
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  text-transform: uppercase;
+  min-width: 101px;
+}
+.capsules {
+  margin: 0;
+  font-size: 22px;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  min-width: 111px;
+}
+.servingSizeParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.b,
+.servingsPerContainer {
+  position: relative;
+  z-index: 1;
+}
+.servingsPerContainer {
+  align-self: stretch;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.b {
+  font-size: 22px;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 29.1px;
+}
+.servingsPerContainerParent {
+  width: 214px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.frameContainer {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 20px 0 24px;
+  box-sizing: border-box;
+  max-width: 103%;
+  flex-shrink: 0;
+  font-size: 15px;
+}
+.amountPerServing,
+.dailyValue {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.dailyValue {
+  display: inline-block;
+  min-width: 109px;
+}
+.amountPerServingParent,
+.frameWrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.amountPerServingParent {
+  flex: 1;
+  border-top: 5px solid #343434;
+  padding: 12px 30px 18px;
+  gap: 65px;
+  z-index: 1;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  padding: 0 5px;
+}
+.calories {
+  display: inline-block;
+  min-width: 82px;
+}
+.calories,
+.perServing {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.caloriesParent,
+.frameParent2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.caloriesParent {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 7.9px 8px 8px 7.9px;
+  gap: 20px;
+  z-index: 1;
+  font-size: 22px;
+}
+.frameParent2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+  font-size: 15px;
+}
+.b1,
+.energeticFuel1g {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 108px;
+}
+.b1 {
+  width: 34px;
+  font-size: 12.7px;
+  text-align: right;
+  min-width: 34px;
+}
+.energeticFuel1gParent {
+  align-self: stretch;
+  border-top: 0.8px solid #343434;
+  border-bottom: 0.8px solid #343434;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4px 0 3px;
+  gap: 20px;
+  z-index: 1;
+}
+.b2,
+.powerCalorics1g {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 96px;
+}
+.b2 {
+  font-size: 12.7px;
+  line-height: 20px;
+  min-width: 23px;
+}
+.powerCalorics1gParent {
+  align-self: stretch;
+  border-bottom: 0.8px solid #6d819b;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.8px 0 3px 12.7px;
+  gap: 20px;
+  z-index: 1;
+  text-align: right;
+  font-size: 12px;
+}
+.b3,
+.energyEssence1g {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 118px;
+}
+.b3 {
+  font-size: 12.7px;
+  text-align: right;
+  min-width: 18px;
+}
+.energyEssence1gParent {
+  align-self: stretch;
+  border-bottom: 0.8px solid #6d819b;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.8px 0 3px;
+  gap: 20px;
+  z-index: 1;
+}
+.b4,
+.vitalityQuotient1mg {
+  position: relative;
+  line-height: 20px;
+}
+.b4 {
+  font-size: 12.7px;
+  display: inline-block;
+  text-align: right;
+  min-width: 18px;
+}
+.vitalityQuotient1mg0Parent {
+  align-self: stretch;
+  border-bottom: 0.8px solid #6d819b;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.7px 0 4px;
+  gap: 20px;
+  z-index: 1;
+}
+.b5,
+.fuelIntensity1g {
+  position: relative;
+  line-height: 20px;
+}
+.b5 {
+  font-size: 12.7px;
+  display: inline-block;
+  text-align: right;
+  min-width: 18px;
+}
+.fuelIntensity1g0Parent {
+  align-self: stretch;
+  border-bottom: 0.8px solid #6d819b;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.8px 0 3px;
+  gap: 20px;
+  z-index: 1;
+}
+.b6,
+.dynamicCalories1g {
+  position: relative;
+  line-height: 16px;
+}
+.b6 {
+  font-size: 12.7px;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 21px;
+}
+.dynamicCalories1g0Parent {
+  align-self: stretch;
+  border-bottom: 0.8px solid #6d819b;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.8px 0 3px 12.7px;
+  gap: 20px;
+  z-index: 1;
+  text-align: right;
+  font-size: 12px;
+}
+.b7,
+.vigorCalories1g {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 92px;
+}
+.b7 {
+  font-size: 12.7px;
+  line-height: 20px;
+  min-width: 15px;
+}
+.vigorCalories1gParent {
+  align-self: stretch;
+  border-bottom: 0.8px solid #6d819b;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.7px 0 4px 12.7px;
+  gap: 20px;
+  z-index: 1;
+  text-align: right;
+  font-size: 12px;
+}
+.b8,
+.nourishPower1g {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 110px;
+}
+.b8 {
+  font-size: 12.7px;
+  text-align: right;
+  min-width: 23px;
+}
+.nourishPower1gParent {
+  align-self: stretch;
+  height: 34.5px;
+  border-bottom: 5px solid #343434;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.7px 0 4.8px;
+  gap: 20px;
+  z-index: 1;
+}
+.frameDiv,
+.frameParent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  flex: 1;
+  flex-direction: column;
+  gap: 7.8px;
+  max-width: 100%;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 20px 3.4px;
+  box-sizing: border-box;
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.b9,
+.essentialNutrients {
+  position: relative;
+  line-height: 24px;
+}
+.b9 {
+  font-size: 12.7px;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 18px;
+}
+.essentialNutrientsDailyVParent {
+  align-self: stretch;
+  border-bottom: 0.8px solid #343434;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.8px 0 3px;
+  gap: 20px;
+}
+.b10,
+.vitaminC {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 63px;
+}
+.b10 {
+  font-size: 12.7px;
+  text-align: right;
+  min-width: 18px;
+}
+.frameParent3,
+.vitaminCParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.vitaminCParent {
+  border-bottom: 0.8px solid #343434;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4.8px 0 3px;
+  gap: 20px;
+  text-align: left;
+  font-size: 14px;
+}
+.frameParent3 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 4px;
+  text-align: right;
+  font-size: 16px;
+}
+.b11,
+.calcium {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 50px;
+}
+.b11 {
+  font-size: 12.7px;
+  text-align: right;
+  min-width: 23px;
+}
+.calciumParent {
+  align-self: stretch;
+  border-bottom: 0.8px solid #343434;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.7px 0 4px;
+  gap: 20px;
+}
+.b12,
+.iron {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 24px;
+}
+.b12 {
+  font-size: 12.7px;
+  text-align: right;
+  min-width: 18px;
+}
+.ironParent {
+  align-self: stretch;
+  border-bottom: 5px solid #343434;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4.8px 0 4.7px;
+  gap: 20px;
+}
+.frameWrapper2,
+.groupDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.groupDiv {
+  height: 142.1px;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 1;
+}
+.frameWrapper2 {
+  width: 477.2px;
+  flex-direction: row;
+  padding: 0 14px;
+  box-sizing: border-box;
+}
+.pureCleanseCapsules {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.pureCleanseCapsulesAreADiWrapper,
+.rectangleGroup {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.pureCleanseCapsulesAreADiWrapper {
+  width: 477.2px;
+  flex-direction: row;
+  padding: 0 14px;
+  font-size: 12px;
+}
+.rectangleGroup {
+  width: 489px;
+  border-radius: 12px;
+  background-color: #fff;
+  border: 5px solid #343434;
+  flex-direction: column;
+  padding: 0 0 25px;
+  gap: 20.9px;
+  min-width: 489px;
+}
+.productInformation {
+  margin: 0;
+  position: relative;
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.boostMoodAnd {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.boostMoodAndImmunityWithVWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.keyIngredients {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.fiSsAngleDownIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.fiSsAngleDownWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+}
+.keyIngredientsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.lineDiv {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #343434;
+  box-sizing: border-box;
+}
+.frameParent5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 3px;
+  gap: 8px;
+  font-size: 22px;
+}
+.vitaminA,
+.vitaminB12Methylcobalamin,
+.vitaminDCholecalciferol,
+.vitaminE,
+.vitaminK2 {
+  margin-bottom: 0;
+}
+.vitaminDCholecalciferolVi {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.vitaminDCholecalciferolContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.06em;
+  line-height: 34px;
+}
+.productInformationParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.usageInstructions {
+  position: relative;
+  line-height: 120%;
+}
+.fiSsAngleDownIcon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.fiSsAngleDownContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+}
+.usageInstructionsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameChild1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #343434;
+  box-sizing: border-box;
+}
+.frameParent7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.place1Ml {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.frameParent4,
+.frameParent6,
+.frameWrapper3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent6 {
+  align-self: stretch;
+  gap: 15px;
+  font-size: 22px;
+}
+.frameParent4,
+.frameWrapper3 {
+  max-width: 100%;
+}
+.frameParent4 {
+  align-self: stretch;
+  gap: 32px;
+}
+.frameWrapper3 {
+  width: 710px;
+  padding: 203px 0 0;
+  box-sizing: border-box;
+  min-width: 710px;
+  font-size: 16px;
+}
+.frameParent,
+.productDetails3Inner,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1400px;
+  background-color: #efefef;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+}
+.productDetails3Inner,
+.rectangleParent {
+  box-sizing: border-box;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: #efefef;
+  justify-content: center;
+  padding: 142px 20px;
+}
+.productDetails3Inner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 112px;
+  text-align: left;
+  font-size: 14px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+@media screen and (max-width: 1350px) {
+  .frameWrapper3,
+  .rectangleGroup {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .rectangleParent {
+    padding-top: 92px;
+    padding-bottom: 92px;
+    box-sizing: border-box;
+  }
+  .productDetails3Inner {
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .amountPerServingParent {
+    flex-wrap: wrap;
+  }
+  .rectangleGroup {
+    min-width: 100%;
+  }
+  .productInformation {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .frameParent4 {
+    gap: 16px;
+  }
+  .frameWrapper3 {
+    padding-top: 132px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .rectangleParent {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+  }
+  .productDetails3Inner {
+    padding-bottom: 47px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameInner {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .b,
+  .capsules {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .amountPerServingParent {
+    gap: 32px;
+  }
+  .calories,
+  .perServing {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .caloriesParent,
+  .energeticFuel1gParent {
+    flex-wrap: wrap;
+  }
+  .productInformation {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .keyIngredients,
+  .usageInstructions {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}

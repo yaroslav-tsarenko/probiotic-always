@@ -1,0 +1,415 @@
+.frameChild {
+  height: 357px;
+  width: 369px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.instanceChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #f5f0e9;
+}
+.customerReviews {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.customerReviewsWrapper {
+  width: 748px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameItem {
+  height: 67px;
+  width: 67px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.alexandra,
+.newYorkNy {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.newYorkNy {
+  font-size: 14px;
+  line-height: 17px;
+  color: #98a4ae;
+}
+.alexandraParent,
+.ellipseParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.alexandraParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.ellipseParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 32px 0 0;
+  gap: 12px;
+}
+.greenVitalityBlend {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  height: 25.4px;
+  width: 25.4px;
+  position: relative;
+  border-radius: 1.78px;
+  min-height: 25px;
+}
+.fiveStar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon {
+  width: 45px;
+  height: 28px;
+  position: absolute;
+  margin: 0 !important;
+  top: 232px;
+  left: 218px;
+  object-fit: contain;
+}
+.frameDiv {
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 12px;
+}
+.frameInner {
+  height: 67px;
+  width: 67px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.austinTx,
+.michael {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.austinTx {
+  font-size: 14px;
+  line-height: 17px;
+  color: #98a4ae;
+}
+.ellipseGroup,
+.michaelParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.michaelParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.ellipseGroup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 32px 0 0;
+  gap: 12px;
+}
+.pureGlowCollagen {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.vectorIcon5,
+.vectorIcon6,
+.vectorIcon7,
+.vectorIcon8,
+.vectorIcon9 {
+  height: 25.4px;
+  width: 25.4px;
+  position: relative;
+  border-radius: 1.78px;
+  min-height: 25px;
+}
+.fiveStar1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon1 {
+  width: 45px;
+  height: 28px;
+  position: absolute;
+  margin: 0 !important;
+  top: 232px;
+  left: 218px;
+  object-fit: contain;
+}
+.frameParent1 {
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: 12px;
+}
+.ellipseIcon {
+  height: 67px;
+  width: 67px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.emily,
+.newYorkNy1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.newYorkNy1 {
+  font-size: 14px;
+  line-height: 17px;
+  color: #98a4ae;
+}
+.ellipseContainer,
+.emilyParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.emilyParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.ellipseContainer {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 32px 0 0;
+  gap: 12px;
+}
+.moodMagicGummies {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.vectorIcon10,
+.vectorIcon11,
+.vectorIcon12,
+.vectorIcon13,
+.vectorIcon14 {
+  height: 25.4px;
+  width: 25.4px;
+  position: relative;
+  border-radius: 1.78px;
+  min-height: 25px;
+}
+.fiveStar2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon2 {
+  width: 45px;
+  height: 28px;
+  position: absolute;
+  margin: 0 !important;
+  top: 232px;
+  left: 218px;
+  object-fit: contain;
+}
+.frameParent2 {
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: 12px;
+}
+.frameChild1 {
+  height: 67px;
+  width: 67px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.carlos,
+.miamiFl {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.miamiFl {
+  font-size: 14px;
+  line-height: 17px;
+  color: #98a4ae;
+}
+.carlosParent,
+.ellipseParent1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.carlosParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.ellipseParent1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 32px 0 0;
+  gap: 12px;
+}
+.sleepSerenityCapsules {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.vectorIcon15,
+.vectorIcon16,
+.vectorIcon17,
+.vectorIcon18,
+.vectorIcon19 {
+  height: 25.4px;
+  width: 25.4px;
+  position: relative;
+  border-radius: 1.78px;
+  min-height: 25px;
+}
+.fiveStar3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon3 {
+  width: 45px;
+  height: 28px;
+  position: absolute;
+  margin: 0 !important;
+  top: 232px;
+  left: 218px;
+  object-fit: contain;
+}
+.frameContainer,
+.frameParent3 {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent3 {
+  width: 272px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: 12px;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 16px;
+}
+.frameGroup {
+  width: 1536px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 44px;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameParent,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  justify-content: center;
+  padding: 146px 20px 145.6px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 3;
+}
+.frameParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 42px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+@media screen and (max-width: 1350px) {
+  .frameContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .customerReviews {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .frameGroup {
+    gap: 22px;
+  }
+  .rectangleParent {
+    padding-top: 95px;
+    padding-bottom: 95px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .customerReviews {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}

@@ -1,0 +1,159 @@
+.getInTouch1 {
+  margin: 0;
+  width: 587px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.nameLabelChild,
+.nameLabelItem {
+  border: 0;
+  background-color: transparent;
+  height: 66px;
+  flex: 1;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: #4b4b4b;
+  min-width: 322px;
+  max-width: 100%;
+}
+.nameLabel1 {
+  width: 1034px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 44px;
+  max-width: 100%;
+}
+.frameTextfield,
+.nameLabelInner {
+  border: 0;
+  background-color: transparent;
+  height: 66px;
+  width: 495px;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: #4b4b4b;
+  max-width: 100%;
+}
+.nameField,
+.nameFieldChild,
+.nameLabel {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.nameLabel {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 34px 44px;
+  min-height: 166px;
+  max-width: 100%;
+}
+.nameField,
+.nameFieldChild {
+  align-items: flex-start;
+}
+.nameFieldChild {
+  border: 1px solid #000;
+  background-color: transparent;
+  height: 260px;
+  width: auto;
+  outline: 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 25px 46px;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: #4b4b4b;
+}
+.nameField {
+  flex-direction: column;
+  gap: 34px;
+  max-width: 100%;
+}
+.haveQuestionsWe,
+.productsAndServices {
+  margin: 0;
+}
+.haveQuestionsWeContainer {
+  width: 1020px;
+  height: 58px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.button {
+  align-self: stretch;
+  height: 56px;
+}
+.getInTouchContent,
+.nameForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.nameForm {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 23px;
+  text-align: left;
+  font-size: 16px;
+  color: #343434;
+}
+.getInTouchContent {
+  width: 1034px;
+  align-items: center;
+  gap: 44px;
+}
+.getInTouch {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 112px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: 32px;
+  color: #000;
+  font-family: "Proxima Nova";
+}
+@media screen and (max-width: 1225px) {
+  .nameLabel1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .getInTouch1 {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .nameLabel,
+  .nameLabel1 {
+    gap: 22px;
+  }
+  .nameField {
+    gap: 17px;
+  }
+  .getInTouchContent {
+    gap: 22px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .getInTouch1 {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

@@ -1,0 +1,1878 @@
+.probioticsalways,
+.products {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.probioticsalways {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.products {
+  display: inline-block;
+  min-width: 42px;
+}
+.productsWrapper {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products1 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 84px;
+}
+.productsContainer {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products2 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 84px;
+}
+.productsFrame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+  white-space: nowrap;
+}
+.products3 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 42px;
+}
+.frameDiv {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products4 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 104px;
+}
+.productsWrapper1 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  white-space: nowrap;
+}
+.instanceParent {
+  width: 596px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  font-size: 16px;
+}
+.userIcon,
+.userIcon1 {
+  height: 29px;
+  width: 29px;
+  position: relative;
+  border-radius: 42.59px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.userIcon1 {
+  height: 36px;
+  width: 36px;
+  border-radius: 52.88px;
+}
+.probioticsalwaysParent,
+.userParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.userParent {
+  width: 88px;
+}
+.probioticsalwaysParent {
+  align-self: stretch;
+  gap: 20px;
+  max-width: 100%;
+}
+.productDetails3Child {
+  width: 369px;
+  height: 357px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameChild {
+  height: 12.5px;
+  width: 12.5px;
+  position: relative;
+}
+.productDetails3Inner {
+  width: 224.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.instanceChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #70a026;
+}
+.groupIcon {
+  height: 79.85%;
+  width: 80.65%;
+  top: 20.15%;
+  right: 9.78%;
+  bottom: 0;
+  left: 9.57%;
+}
+.groupIcon,
+.groupIcon1,
+.groupIcon2,
+.groupIcon3 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon1 {
+  height: 30.47%;
+  width: 30%;
+  top: 6.39%;
+  right: 35%;
+  bottom: 63.14%;
+  left: 35%;
+  z-index: 1;
+}
+.groupIcon2,
+.groupIcon3 {
+  height: 100%;
+  width: 29.57%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 70.43%;
+}
+.groupIcon3 {
+  right: 70.43%;
+  left: 0;
+}
+.group,
+.groupIcon4 {
+  position: absolute;
+  height: 29.98%;
+  width: 100%;
+  top: 58.72%;
+  right: 0;
+  bottom: 11.3%;
+  left: 0;
+  z-index: 1;
+}
+.groupIcon4 {
+  height: 84.03%;
+  width: 63.7%;
+  top: 0;
+  right: 5.22%;
+  bottom: 15.97%;
+  left: 31.09%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.groupParent,
+.probioticsalways1 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.groupParent {
+  height: 40.7px;
+  width: 46px;
+}
+.probioticsalways1 {
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.probioticsalwaysWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 11.3px 0 0;
+}
+.frameContainer,
+.frameWrapper,
+.probioticsalwaysWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frameContainer {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 16.5px;
+}
+.frameWrapper {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 5.3px;
+}
+.products5 {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 39px;
+}
+.productsWrapper2 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.products6 {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 77px;
+}
+.productsWrapper3 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.products7 {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 77px;
+}
+.productsWrapper4 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  white-space: nowrap;
+}
+.products8 {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 39px;
+}
+.productsWrapper5 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.products9 {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 96px;
+}
+.instanceGroup,
+.productsWrapper6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.productsWrapper6 {
+  background-color: transparent;
+  justify-content: flex-start;
+  padding: 10px;
+  white-space: nowrap;
+}
+.instanceGroup {
+  width: 595.6px;
+  justify-content: center;
+  gap: 41.9px;
+  max-width: 100%;
+  font-size: 16px;
+  font-family: "IBM Plex Mono";
+}
+.userIcon2 {
+  width: 29px;
+  height: 29px;
+  position: relative;
+  border-radius: 42.59px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.userWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.5px 0 0;
+}
+.userIcon3 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  border-radius: 52.88px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent1,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameWrapper1 {
+  width: 87.9px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 8px;
+  box-sizing: border-box;
+}
+.frameGroup {
+  width: 1536px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+  z-index: 1;
+}
+.instanceWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  justify-content: center;
+  padding: 14px 20px;
+  position: relative;
+  text-align: left;
+  font-size: 25.8px;
+  color: #fff;
+  font-family: "Proxima Nova";
+}
+.instanceWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 112px;
+}
+.keyFeatures {
+  margin: 0;
+  width: 308px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.keyFeaturesWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+}
+.frameItem {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+}
+.essentialOmega3Synergy {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: calc(100% - 37px);
+}
+.frameParent5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.omegaBlissCapsules {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.groupDiv,
+.omegaBlissCapsulesDeliverEWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.omegaBlissCapsulesDeliverEWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 37px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.groupDiv {
+  width: 387px;
+  flex-direction: column;
+  gap: 11px;
+}
+.frameInner {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+}
+.highPurityFishOil {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: calc(100% - 37px);
+}
+.frameParent7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.derivedFromHighPurity {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.derivedFromHighPurityFishWrapper,
+.frameParent6 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.derivedFromHighPurityFishWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 37px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.frameParent6 {
+  width: 387px;
+  flex-direction: column;
+  gap: 11px;
+}
+.frameChild1 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+}
+.jointComfortSupport {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: calc(100% - 37px);
+}
+.frameParent9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.experienceJointComfort {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.experienceJointComfortWithWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 0 37px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.experienceJointComfortWithWrapper,
+.frameParent3,
+.frameParent4,
+.frameParent8 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent8 {
+  width: 387px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 11px;
+}
+.frameParent3,
+.frameParent4 {
+  align-self: stretch;
+}
+.frameParent4 {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 22px;
+}
+.frameParent3 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 44px;
+}
+.frameChild2 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+}
+.cognitiveClarityFormula {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: calc(100% - 37px);
+}
+.frameParent12 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.enhanceCognitiveFunction {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.enhanceCognitiveFunctionWitWrapper,
+.frameParent11 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.enhanceCognitiveFunctionWitWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 37px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.frameParent11 {
+  width: 387px;
+  flex-direction: column;
+  gap: 11px;
+}
+.frameChild3 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+}
+.cardiovascularWellnessBlend {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: calc(100% - 37px);
+}
+.frameParent14 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.nourishYourHeart {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameParent13,
+.nourishYourHeartWithOmegaWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.nourishYourHeartWithOmegaWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 37px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.frameParent13 {
+  width: 387px;
+  flex-direction: column;
+  gap: 11px;
+}
+.frameChild4 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+}
+.easyAbsorptionTechnology {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: calc(100% - 37px);
+}
+.frameParent16 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.benefitFromEasy {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.benefitFromEasyAbsorptionTWrapper,
+.frameParent15 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.benefitFromEasyAbsorptionTWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 37px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.frameParent15 {
+  width: 387px;
+  flex-direction: column;
+  gap: 11px;
+}
+.frameParent10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+  text-align: left;
+  font-size: 22px;
+}
+.frameParent2,
+.frameSection {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent2 {
+  width: 1535px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 103px;
+}
+.frameSection {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 112px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 32px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+.discoverBestsellers {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.elevateYourWellBeing {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.elevateYourWellBeingWithNWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 68px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.discoverBestsellersParent,
+.elevateYourWellBeingWithNWrapper,
+.frameWrapper3 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.discoverBestsellersParent {
+  width: 653px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.frameWrapper3 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 0 29px;
+  box-sizing: border-box;
+}
+.rectangleDiv,
+.rectangleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+.rectangleDiv {
+  background-color: #f0f8ec;
+}
+.rectangleIcon {
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleGroup {
+  align-self: stretch;
+  height: 341px;
+  position: relative;
+}
+.greenVitalityBlend {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.revitalizeWithNutrientRich {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.greenVitalityBlendParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.div {
+  line-height: 120%;
+  display: inline-block;
+  min-width: 70px;
+  white-space: nowrap;
+}
+.div,
+.div1,
+.starIcon {
+  position: relative;
+}
+.starIcon {
+  height: 23px;
+  width: 23px;
+  border-radius: 1px;
+}
+.div1 {
+  flex: 1;
+  line-height: 24px;
+}
+.parent,
+.starParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.starParent {
+  width: 61px;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+.parent {
+  align-items: flex-start;
+  gap: 28px;
+}
+.frameButton {
+  height: 37px;
+  flex: 1;
+  min-width: 113px;
+}
+.frameChild5 {
+  height: 37px;
+  width: 151px;
+}
+.frameParent21 {
+  width: 337px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.button {
+  align-self: stretch;
+  height: 56px;
+}
+.frameParent19,
+.frameParent20 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.frameParent20 {
+  width: 349px;
+  max-width: 100%;
+}
+.frameParent19 {
+  width: 364px;
+  flex-shrink: 0;
+}
+.frameChild6,
+.frameChild7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+.frameChild6 {
+  background-color: #f0f8ec;
+}
+.frameChild7 {
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleContainer {
+  align-self: stretch;
+  height: 341px;
+  position: relative;
+}
+.omegaBlissCapsules1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.essentialFattyAcids {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.omegaBlissCapsulesParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.div2 {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 70px;
+  white-space: nowrap;
+}
+.frameChild8 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+  border-radius: 1px;
+}
+.div3 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.container,
+.starGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.starGroup {
+  width: 61px;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+.container {
+  align-items: flex-start;
+  gap: 28px;
+}
+.frameChild9 {
+  height: 37px;
+  flex: 1;
+}
+.frameChild10 {
+  height: 37px;
+  width: 118px;
+}
+.frameParent24 {
+  width: 265px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.button1 {
+  align-self: stretch;
+  height: 56px;
+}
+.frameParent22,
+.frameParent23 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.frameParent23 {
+  width: 349px;
+  max-width: 100%;
+}
+.frameParent22 {
+  width: 364px;
+  flex-shrink: 0;
+}
+.frameChild11,
+.frameChild12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+.frameChild11 {
+  background-color: #f0f8ec;
+}
+.frameChild12 {
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleParent1 {
+  align-self: stretch;
+  height: 341px;
+  position: relative;
+}
+.sunriseWellnessDrops {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.startYourDay {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.sunriseWellnessDropsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.div4 {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 70px;
+  white-space: nowrap;
+}
+.frameChild13 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+  border-radius: 1px;
+}
+.div5 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.parent1,
+.starContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.starContainer {
+  width: 61px;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+.parent1 {
+  align-items: flex-start;
+  gap: 28px;
+}
+.frameChild14 {
+  height: 37px;
+  width: 134px;
+}
+.frameChild15 {
+  height: 37px;
+  flex: 1;
+}
+.frameParent27 {
+  width: 293px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.button2 {
+  align-self: stretch;
+  height: 56px;
+}
+.frameParent25,
+.frameParent26 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.frameParent26 {
+  width: 349px;
+  max-width: 100%;
+}
+.frameParent25 {
+  width: 364px;
+  flex-shrink: 0;
+}
+.frameChild16,
+.frameChild17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+.frameChild16 {
+  background-color: #f0f8ec;
+}
+.frameChild17 {
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleParent2 {
+  align-self: stretch;
+  height: 341px;
+  position: relative;
+}
+.probioticHarmony {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.gutHealthChampion {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.probioticHarmonyParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.div6 {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 70px;
+  white-space: nowrap;
+}
+.frameChild18 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+  border-radius: 1px;
+}
+.div7 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.parent2,
+.starParent1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.starParent1 {
+  width: 61px;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+.parent2 {
+  align-items: flex-start;
+  gap: 28px;
+}
+.frameChild19,
+.frameChild20 {
+  height: 37px;
+  flex: 1;
+  min-width: 105px;
+}
+.frameChild20 {
+  min-width: 100px;
+}
+.frameParent30 {
+  width: 328px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.button3 {
+  align-self: stretch;
+  height: 56px;
+}
+.frameParent28,
+.frameParent29 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.frameParent29 {
+  width: 349px;
+  max-width: 100%;
+}
+.frameParent28 {
+  width: 364px;
+  flex-shrink: 0;
+}
+.frameParent17,
+.frameParent18 {
+  width: 1536px;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent18 {
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 26.7px;
+  text-align: left;
+  font-size: 22px;
+}
+.frameParent17 {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 44px;
+}
+.frameWrapper2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 112px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: 42px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+.instanceItem {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #f5f0e9;
+}
+.customerReviews {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.customerReviewsWrapper {
+  width: 748px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ellipseIcon {
+  height: 67px;
+  width: 67px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.alexandra,
+.newYorkNy {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.newYorkNy {
+  font-size: 14px;
+  line-height: 17px;
+  color: #98a4ae;
+}
+.alexandraParent,
+.ellipseParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.alexandraParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 105px;
+}
+.ellipseParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 32px 0 0;
+  gap: 12px;
+}
+.greenVitalityBlend1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  height: 25.4px;
+  width: 25.4px;
+  position: relative;
+  border-radius: 1.78px;
+  min-height: 25px;
+}
+.fiveStar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon {
+  width: 45px;
+  height: 28px;
+  position: absolute;
+  margin: 0 !important;
+  top: 232px;
+  left: 218px;
+  object-fit: contain;
+}
+.frameParent33 {
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 12px;
+}
+.frameChild21 {
+  height: 67px;
+  width: 67px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.austinTx,
+.michael {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.austinTx {
+  font-size: 14px;
+  line-height: 17px;
+  color: #98a4ae;
+}
+.ellipseGroup,
+.michaelParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.michaelParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 105px;
+}
+.ellipseGroup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 32px 0 0;
+  gap: 12px;
+}
+.pureGlowCollagen {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.vectorIcon5,
+.vectorIcon6,
+.vectorIcon7,
+.vectorIcon8,
+.vectorIcon9 {
+  height: 25.4px;
+  width: 25.4px;
+  position: relative;
+  border-radius: 1.78px;
+  min-height: 25px;
+}
+.fiveStar1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon1 {
+  width: 45px;
+  height: 28px;
+  position: absolute;
+  margin: 0 !important;
+  top: 232px;
+  left: 218px;
+  object-fit: contain;
+}
+.frameParent34 {
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: 12px;
+}
+.frameChild22 {
+  height: 67px;
+  width: 67px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.emily,
+.newYorkNy1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.newYorkNy1 {
+  font-size: 14px;
+  line-height: 17px;
+  color: #98a4ae;
+}
+.ellipseContainer,
+.emilyParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.emilyParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 105px;
+}
+.ellipseContainer {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 32px 0 0;
+  gap: 12px;
+}
+.moodMagicGummies {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.vectorIcon10,
+.vectorIcon11,
+.vectorIcon12,
+.vectorIcon13,
+.vectorIcon14 {
+  height: 25.4px;
+  width: 25.4px;
+  position: relative;
+  border-radius: 1.78px;
+  min-height: 25px;
+}
+.fiveStar2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon2 {
+  width: 45px;
+  height: 28px;
+  position: absolute;
+  margin: 0 !important;
+  top: 232px;
+  left: 218px;
+  object-fit: contain;
+}
+.frameParent35 {
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: 12px;
+}
+.frameChild23 {
+  height: 67px;
+  width: 67px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.carlos,
+.miamiFl {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.miamiFl {
+  font-size: 14px;
+  line-height: 17px;
+  color: #98a4ae;
+}
+.carlosParent,
+.ellipseParent1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.carlosParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 105px;
+}
+.ellipseParent1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 32px 0 0;
+  gap: 12px;
+}
+.sleepSerenityCapsules {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.vectorIcon15,
+.vectorIcon16,
+.vectorIcon17,
+.vectorIcon18,
+.vectorIcon19 {
+  height: 25.4px;
+  width: 25.4px;
+  position: relative;
+  border-radius: 1.78px;
+  min-height: 25px;
+}
+.fiveStar3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon3 {
+  width: 45px;
+  height: 28px;
+  position: absolute;
+  margin: 0 !important;
+  top: 232px;
+  left: 218px;
+  object-fit: contain;
+}
+.frameParent32,
+.frameParent36 {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent36 {
+  width: 272px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: 12px;
+}
+.frameParent32 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 16px;
+}
+.frameParent31 {
+  width: 1536px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 44px;
+  max-width: 100%;
+  z-index: 1;
+}
+.groupSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 146px 20px 145.6px;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  z-index: 2;
+  text-align: center;
+  font-size: 42px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+.frameParent,
+.productDetails3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  margin: 0 !important;
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+  left: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.productDetails3 {
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 84px 192px 84.5px;
+  box-sizing: border-box;
+  gap: 5571px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: "IBM Plex Mono";
+}
+@media screen and (max-width: 1750px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .frameParent4 {
+    justify-content: center;
+  }
+  .frameParent10,
+  .frameParent4 {
+    flex-wrap: wrap;
+  }
+  .frameParent32 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .instanceParent {
+    display: none;
+  }
+  .productDetails3 {
+    gap: 2785px;
+    padding-left: 96px;
+    padding-right: 96px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .instanceGroup {
+    flex-wrap: wrap;
+    gap: 21px;
+  }
+  .keyFeatures {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .frameParent3 {
+    gap: 22px;
+  }
+  .frameParent2 {
+    gap: 51px;
+  }
+  .discoverBestsellers {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .elevateYourWellBeingWithNWrapper {
+    padding-left: 34px;
+    padding-right: 34px;
+    box-sizing: border-box;
+  }
+  .frameParent17 {
+    gap: 22px;
+  }
+  .customerReviews {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .frameParent31 {
+    gap: 22px;
+  }
+  .productDetails3 {
+    gap: 1393px;
+    padding-left: 48px;
+    padding-right: 48px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .probioticsalways {
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .probioticsalways1 {
+    font-size: 21px;
+    line-height: 14px;
+  }
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+  .keyFeatures {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .cardiovascularWellnessBlend,
+  .cognitiveClarityFormula,
+  .easyAbsorptionTechnology,
+  .essentialOmega3Synergy,
+  .highPurityFishOil,
+  .jointComfortSupport {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .frameParent2 {
+    gap: 26px;
+  }
+  .discoverBestsellers {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .div,
+  .div2,
+  .div4,
+  .div6,
+  .greenVitalityBlend,
+  .omegaBlissCapsules1,
+  .probioticHarmony,
+  .sunriseWellnessDrops {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .customerReviews {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .ellipseContainer,
+  .ellipseGroup,
+  .ellipseParent,
+  .ellipseParent1 {
+    flex-wrap: wrap;
+  }
+}

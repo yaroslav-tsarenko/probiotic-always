@@ -1,0 +1,72 @@
+.frameChild {
+  height: 12.5px;
+  width: 12.5px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.frameParent,
+.subscribeSave,
+.subscribeSaveInner {
+  width: 224.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frameParent,
+.subscribeSave {
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  margin: 0 !important;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  gap: 112px;
+  max-width: 100%;
+  z-index: 1;
+}
+.subscribeSave {
+  height: 2854px;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 84px 192px 2718px;
+  box-sizing: border-box;
+  gap: 5571px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1750px) {
+  .subscribeSave {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .frameParent {
+    gap: 56px;
+  }
+  .subscribeSave {
+    gap: 2785px;
+    padding-left: 96px;
+    padding-right: 96px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .frameParent {
+    gap: 28px;
+  }
+  .subscribeSave {
+    gap: 1393px;
+    padding-left: 48px;
+    padding-right: 48px;
+    box-sizing: border-box;
+  }
+}

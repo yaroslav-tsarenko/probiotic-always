@@ -1,0 +1,117 @@
+.frameChild {
+  height: 850px;
+  width: 1920px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.elevateYourHealth,
+.weBelieveIn {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+}
+.elevateYourHealth {
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 800;
+}
+.weBelieveIn {
+  width: 728px;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+  display: inline-block;
+  max-width: 100%;
+}
+.elevateYourHealthWithNaturParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.button {
+  height: 64px;
+  flex: 1;
+  min-width: 158px;
+}
+.button1 {
+  height: 64px;
+  width: 215px;
+}
+.buttonParent {
+  width: 482.4px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.buttonParent,
+.frameParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 792px;
+  flex-direction: column;
+  gap: 46px;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 191px 189px;
+  box-sizing: border-box;
+  background-image: url(/public/rectangle-4665@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 850px;
+  text-align: left;
+  font-size: 60px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+@media screen and (max-width: 1300px) {
+  .rectangleParent {
+    padding-left: 94px;
+    padding-right: 94px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .elevateYourHealth {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .rectangleParent {
+    padding-left: 47px;
+    padding-right: 47px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .elevateYourHealth {
+    font-size: 36px;
+    line-height: 43px;
+  }
+  .weBelieveIn {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .frameParent {
+    gap: 23px;
+  }
+  .rectangleParent {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

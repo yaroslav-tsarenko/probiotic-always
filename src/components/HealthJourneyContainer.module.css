@@ -1,0 +1,527 @@
+.customerCentricFocus {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.blankLine,
+.ourCustomersAre,
+.ourFormulationsAre {
+  margin: 0;
+}
+.ourCustomersAreContainer {
+  width: 696px;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.customerCentricFocusParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.customerCentricFocusParent {
+  align-self: stretch;
+  gap: 24px;
+}
+.frameWrapper {
+  width: 712px;
+  padding: 87.5px 0 0;
+  box-sizing: border-box;
+  min-width: 712px;
+}
+.maskGroupIcon,
+.maskGroupIcon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-width: 237px;
+  min-height: 405px;
+}
+.frameParent,
+.maskGroupParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.maskGroupParent {
+  flex: 1;
+  gap: 20px;
+  min-width: 486px;
+}
+.frameParent {
+  align-self: stretch;
+  gap: 76px;
+}
+.maskGroupIcon2 {
+  height: 596px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 486px;
+}
+.empoweringYourHealth {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.weUnderstandThat,
+.wereMoreThan {
+  margin: 0;
+}
+.wereMoreThanContainer {
+  width: 696px;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.empoweringYourHealthJourneyParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 24px;
+}
+.empoweringJourneyPair,
+.empoweringYourHealthJourneyParent,
+.maskGroupGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.empoweringJourneyPair {
+  width: 712px;
+  flex-direction: column;
+  padding: 195px 0 0;
+  box-sizing: border-box;
+  min-width: 712px;
+}
+.maskGroupGroup {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 76px;
+}
+.weBelieveIn {
+  margin: 0;
+  width: 1245px;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.weBelieveInThePowerOfKnoWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+}
+.supportiveCommunity {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.joinOurThriving,
+.yourHealthJourney {
+  margin: 0;
+}
+.joinOurThrivingContainer {
+  width: 696px;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameContainer,
+.supportiveCommunityParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.supportiveCommunityParent {
+  align-self: stretch;
+  gap: 24px;
+}
+.frameContainer {
+  width: 712px;
+  padding: 195px 0 0;
+  box-sizing: border-box;
+  min-width: 712px;
+}
+.maskGroupIcon3 {
+  height: 596px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 486px;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 76px;
+  max-width: 100%;
+}
+.frameChild,
+.maskGroupIcon4 {
+  position: relative;
+  max-width: 100%;
+}
+.frameChild {
+  align-self: stretch;
+  width: 1536px;
+  border-radius: 8px;
+  background-color: #c3d6b9;
+  display: none;
+}
+.maskGroupIcon4 {
+  width: 506px;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.ourStory,
+.routineBuilder {
+  width: 463px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.ourStory {
+  margin: 0;
+  width: 532px;
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.withATeam {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.button {
+  width: 224.4px;
+  height: 64px;
+}
+.routineBuilderParent {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.frameDiv,
+.frameWrapper1,
+.rectangleParent,
+.routineBuilderParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.frameDiv,
+.rectangleParent {
+  box-sizing: border-box;
+}
+.frameDiv {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 107px 0 0;
+  min-width: 603px;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #c3d6b9;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 22px 0 0;
+  gap: 80px;
+  font-size: 16px;
+  color: #343434;
+}
+.ourCommitmentTo {
+  margin: 0;
+  width: 740px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameItem {
+  width: 99px;
+  height: 99px;
+  position: relative;
+  object-fit: contain;
+}
+.peaceOfMind,
+.thirdPartyValidationFor {
+  margin: 0;
+}
+.premiumSourcingAndContainer {
+  margin: 0;
+  height: 52px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.wePrioritizeThe {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.frameParent2,
+.premiumSourcingAndFormulatiParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.premiumSourcingAndFormulatiParent {
+  align-self: stretch;
+  gap: 12px;
+}
+.frameParent2 {
+  width: 412px;
+  gap: 24px;
+  max-width: 100%;
+  text-align: center;
+}
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+  text-align: left;
+  font-size: 22px;
+}
+.ourCommitmentToQualityParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 66px;
+  max-width: 100%;
+}
+.healthJourneyContainer,
+.healthJourneyContainerInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.healthJourneyContainerInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 5px 0 5.5px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 42px;
+  color: #343434;
+  font-family: Inter;
+}
+.healthJourneyContainer {
+  width: 1536px;
+  flex-direction: column;
+  gap: 112px;
+  text-align: left;
+  font-size: 32px;
+  color: #000;
+  font-family: "Proxima Nova";
+}
+@media screen and (max-width: 1700px) {
+  .frameWrapper {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .empoweringJourneyPair {
+    flex: 1;
+  }
+  .maskGroupGroup {
+    flex-wrap: wrap;
+  }
+  .frameContainer {
+    flex: 1;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .maskGroupIcon4 {
+    flex: 1;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .frameParent1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1325px) {
+  .empoweringJourneyPair,
+  .frameContainer,
+  .frameDiv,
+  .frameWrapper,
+  .maskGroupIcon2,
+  .maskGroupIcon3,
+  .maskGroupParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .customerCentricFocus {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .maskGroupParent {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    gap: 38px;
+  }
+  .empoweringYourHealth {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .maskGroupGroup {
+    gap: 38px;
+  }
+  .weBelieveIn {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .supportiveCommunity {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .frameGroup {
+    gap: 38px;
+  }
+  .ourStory {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .rectangleParent {
+    gap: 40px;
+  }
+  .ourCommitmentTo {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .ourCommitmentToQualityParent {
+    gap: 33px;
+  }
+  .healthJourneyContainer {
+    gap: 56px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .customerCentricFocus {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .frameParent {
+    gap: 19px;
+  }
+  .empoweringYourHealth {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .maskGroupGroup {
+    gap: 19px;
+  }
+  .weBelieveIn {
+    font-size: 19px;
+    line-height: 27px;
+  }
+  .supportiveCommunity {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .frameGroup {
+    gap: 19px;
+  }
+  .ourStory {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .rectangleParent {
+    gap: 20px;
+  }
+  .ourCommitmentTo {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .premiumSourcingAndContainer {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .ourCommitmentToQualityParent {
+    gap: 16px;
+  }
+  .healthJourneyContainer {
+    gap: 28px;
+  }
+}

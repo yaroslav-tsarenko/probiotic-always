@@ -1,0 +1,582 @@
+.probioticsalways,
+.products {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.probioticsalways {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.products {
+  display: inline-block;
+  min-width: 42px;
+}
+.productsWrapper {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products1 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 84px;
+}
+.productsContainer {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products2 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 84px;
+}
+.productsFrame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+  white-space: nowrap;
+}
+.products3 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 42px;
+}
+.frameDiv {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products4 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 104px;
+}
+.productsWrapper1 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  white-space: nowrap;
+}
+.productsGrid {
+  width: 596px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  font-size: 16px;
+}
+.userIcon,
+.userIcon1 {
+  height: 29px;
+  width: 29px;
+  position: relative;
+  border-radius: 42.59px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.userIcon1 {
+  height: 36px;
+  width: 36px;
+  border-radius: 52.88px;
+}
+.probioticsalwaysParent,
+.userParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.userParent {
+  width: 88px;
+}
+.probioticsalwaysParent {
+  align-self: stretch;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  gap: 20px;
+  max-width: 100%;
+}
+.frameChild {
+  height: 12.5px;
+  width: 12.5px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.cancellationPolicyInner {
+  width: 224.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.instanceChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #70a026;
+}
+.groupIcon {
+  height: 79.85%;
+  width: 80.65%;
+  top: 20.15%;
+  right: 9.78%;
+  bottom: 0;
+  left: 9.57%;
+}
+.groupIcon,
+.groupIcon1,
+.groupIcon2,
+.groupIcon3 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon1 {
+  height: 30.47%;
+  width: 30%;
+  top: 6.39%;
+  right: 35%;
+  bottom: 63.14%;
+  left: 35%;
+  z-index: 1;
+}
+.groupIcon2,
+.groupIcon3 {
+  height: 100%;
+  width: 29.57%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 70.43%;
+}
+.groupIcon3 {
+  right: 70.43%;
+  left: 0;
+}
+.group,
+.groupIcon4 {
+  position: absolute;
+  height: 29.98%;
+  width: 100%;
+  top: 58.72%;
+  right: 0;
+  bottom: 11.3%;
+  left: 0;
+  z-index: 1;
+}
+.groupIcon4 {
+  height: 84.03%;
+  width: 63.7%;
+  top: 0;
+  right: 5.22%;
+  bottom: 15.97%;
+  left: 31.09%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.groupParent,
+.probioticsalways1 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.groupParent {
+  height: 40.7px;
+  width: 46px;
+}
+.probioticsalways1 {
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.probioticsalwaysWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 11.3px 0 0;
+}
+.frameContainer,
+.frameWrapper,
+.probioticsalwaysWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frameContainer {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 16.5px;
+}
+.frameWrapper {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 5.3px;
+}
+.products5 {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 39px;
+}
+.productsWrapper2 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.products6 {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 77px;
+}
+.productsWrapper3 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.products7 {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 77px;
+}
+.productsWrapper4 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  white-space: nowrap;
+}
+.products8 {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 39px;
+}
+.productsWrapper5 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.products9 {
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 96px;
+}
+.productsWrapper6,
+.secondProductsGrid {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.productsWrapper6 {
+  background-color: transparent;
+  justify-content: flex-start;
+  padding: 10px;
+  white-space: nowrap;
+}
+.secondProductsGrid {
+  width: 595.6px;
+  justify-content: center;
+  gap: 41.9px;
+  max-width: 100%;
+  font-size: 16px;
+  font-family: "IBM Plex Mono";
+}
+.userIcon2 {
+  width: 29px;
+  height: 29px;
+  position: relative;
+  border-radius: 42.59px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.userWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.5px 0 0;
+}
+.userIcon3 {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  border-radius: 52.88px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent1,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameWrapper1 {
+  width: 87.9px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 8px;
+  box-sizing: border-box;
+}
+.frameGroup {
+  width: 1536px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+  z-index: 1;
+}
+.frameItem,
+.rectangleParent {
+  position: relative;
+  max-width: 100%;
+}
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 14px 20px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 25.8px;
+  color: #fff;
+  font-family: "Proxima Nova";
+}
+.frameItem {
+  height: 453px;
+  width: 1920px;
+  background-color: #f9f9f9;
+  display: none;
+}
+.cancellationPolicy1 {
+  margin: 0;
+  width: 804px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.instanceParent,
+.rectangleGroup {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.rectangleGroup {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 202px 526px 201px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.instanceParent {
+  flex-direction: column;
+  text-align: center;
+  font-size: 42px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+.componentParent,
+.frameSection,
+.instanceParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.componentParent {
+  width: 1533px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 44px;
+}
+.frameSection {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.cancellationPolicy,
+.frameParent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  margin: 0 !important;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  gap: 112px;
+  max-width: 100%;
+  z-index: 1;
+}
+.cancellationPolicy {
+  height: 2915px;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 84px 192px 2779px;
+  box-sizing: border-box;
+  gap: 5571px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: "IBM Plex Mono";
+}
+@media screen and (max-width: 1525px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .cancellationPolicy {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .productsGrid {
+    display: none;
+  }
+  .rectangleGroup {
+    padding-left: 263px;
+    padding-right: 263px;
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: 56px;
+  }
+  .cancellationPolicy {
+    gap: 2785px;
+    padding-left: 96px;
+    padding-right: 96px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .secondProductsGrid {
+    flex-wrap: wrap;
+    gap: 21px;
+  }
+  .cancellationPolicy1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .rectangleGroup {
+    padding-left: 131px;
+    padding-right: 131px;
+    box-sizing: border-box;
+  }
+  .componentParent {
+    gap: 22px;
+  }
+  .frameParent {
+    gap: 28px;
+  }
+  .cancellationPolicy {
+    gap: 1393px;
+    padding-left: 48px;
+    padding-right: 48px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .probioticsalways {
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .probioticsalways1 {
+    font-size: 21px;
+    line-height: 14px;
+  }
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+  .cancellationPolicy1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .rectangleGroup {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

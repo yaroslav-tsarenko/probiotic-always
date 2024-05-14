@@ -1,0 +1,705 @@
+.probioticsalways,
+.products {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.probioticsalways {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.products {
+  display: inline-block;
+  min-width: 42px;
+}
+.productsWrapper {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products1 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 84px;
+}
+.productsContainer {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products2 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 84px;
+}
+.productsFrame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+  white-space: nowrap;
+}
+.products3 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 42px;
+}
+.frameDiv {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products4 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 104px;
+}
+.productsWrapper1 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  white-space: nowrap;
+}
+.productsGrid {
+  width: 596px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  font-size: 16px;
+}
+.userIcon,
+.userIcon1 {
+  height: 29px;
+  width: 29px;
+  position: relative;
+  border-radius: 42.59px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.userIcon1 {
+  height: 36px;
+  width: 36px;
+  border-radius: 52.88px;
+}
+.probioticsalwaysParent,
+.userParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.userParent {
+  width: 88px;
+}
+.probioticsalwaysParent {
+  align-self: stretch;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  gap: 20px;
+  max-width: 100%;
+}
+.frameChild {
+  height: 12.5px;
+  width: 12.5px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.blogPostInner {
+  width: 224.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.theScienceOf {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.articleContentInner,
+.theScienceOfSkincareDecodWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.theScienceOfSkincareDecodWrapper {
+  width: 1106px;
+  border-bottom: 1px solid #343434;
+  justify-content: flex-start;
+  padding: 10px 0 8px;
+}
+.articleContentInner {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 20px 0 21px;
+  font-size: 42px;
+}
+.lastUpdated0ct {
+  width: 818px;
+  position: relative;
+  letter-spacing: -0.06px;
+  display: inline-block;
+  max-width: 100%;
+}
+.introduction1,
+.lastUpdated0ct {
+  line-height: 120%;
+}
+.introduction {
+  margin: 0;
+}
+.blankLine2 {
+  letter-spacing: 0.03em;
+  font-weight: 600;
+}
+.blankLine1 {
+  line-height: 120%;
+}
+.blankLine {
+  margin: 0;
+  font-size: 28px;
+  font-family: Saira;
+}
+.inTheEverEvolving {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+.introductionInTheContainer {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.introductionInTheEverEvolvWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 0 3.5px;
+  box-sizing: border-box;
+}
+.articleContentChild,
+.introductionInTheEverEvolvWrapper,
+.lastUpdated0ct182022Parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.lastUpdated0ct182022Parent {
+  width: 1096.5px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 44px;
+}
+.articleContentChild {
+  width: 1525.5px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 30px;
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 668px;
+  flex: 1;
+  position: relative;
+  border-radius: 8px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.articleContentInner1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 56px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.theScienceOf1 {
+  margin: 0;
+  width: 832px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.06px;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.blankLine3,
+.thisTitleEncapsulates,
+.thisTitleEncapsulates1 {
+  margin: 0;
+}
+.thisTitleEncapsulatesContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.theScienceOfSkincareDecodParent {
+  width: 1099px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.articleContentInner2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 56px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.benefitsOfSkincare {
+  margin: 0;
+  width: 789px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.06px;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.antioxidantDefenseAntioxida1 {
+  margin-bottom: 0;
+}
+.antioxidantDefenseAntioxida {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.blankLine4 {
+  margin: 0;
+}
+.collagenBoostPeptides {
+  margin-bottom: 0;
+}
+.collagenBoostPeptidesStimu {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.blankLine5 {
+  margin: 0;
+}
+.cellularRenewalWith {
+  margin-bottom: 0;
+}
+.cellularRenewalWithRetinoid {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.blankLine6 {
+  margin: 0;
+}
+.hydrationInfusionWith {
+  margin-bottom: 0;
+}
+.hydrationInfusionWithHyalur {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.blankLine7 {
+  margin: 0;
+}
+.skinBarrierSupport {
+  margin-bottom: 0;
+}
+.skinBarrierSupportNiacinam {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.blankLine8 {
+  margin: 0;
+}
+.sunProtectionWithSpfSpfP {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.antioxidantDefenseAntioxidaContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.benefitsOfSkincareScienceParent {
+  width: 1099px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.articleContentInner3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 56px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.howItWorks,
+.skincareScienceOperates {
+  position: relative;
+  display: inline-block;
+}
+.howItWorks {
+  margin: 0;
+  width: 789px;
+  font-size: inherit;
+  letter-spacing: -0.06px;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  max-width: 100%;
+}
+.skincareScienceOperates {
+  align-self: stretch;
+  height: 143px;
+  font-size: 16px;
+  line-height: 24px;
+  flex-shrink: 0;
+}
+.howItWorksTheIntricaciesParent {
+  width: 1099px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.articleContentInner4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 34px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.conclusion {
+  margin: 0;
+  width: 789px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.06px;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.understandingTheIntricacies {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.articleContentInner5,
+.conclusionParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.conclusionParent {
+  width: 1099px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.articleContentInner5 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 56px;
+  box-sizing: border-box;
+}
+.disclaimer {
+  margin: 0;
+  width: 789px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.06px;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.whileSkincareScience {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.articleContentInner6,
+.disclaimerParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.disclaimerParent {
+  width: 1099px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.articleContentInner6 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 56px;
+  box-sizing: border-box;
+}
+.likeWhatYou {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.06px;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.likeWhatYouSeeShareWithWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 7px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.behanchIcon,
+.facebookIcon,
+.twitterIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  min-height: 40px;
+}
+.behanchIcon {
+  height: 39.7px;
+  width: 39.7px;
+}
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+}
+.sharingContent,
+.sharingContentWrapper {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.sharingContent {
+  width: 1087px;
+  border-radius: 6px;
+  background-color: #f5f0e9;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 16px 60px;
+  max-width: 100%;
+  gap: 20px;
+}
+.sharingContentWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 20px;
+}
+.articleContent,
+.articleContentWrapper,
+.sharingContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.articleContent {
+  width: 1536px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 44px;
+}
+.articleContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 22px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+.blogPost,
+.instanceParent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.instanceParent {
+  margin: 0 !important;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  gap: 112px;
+  max-width: 100%;
+  z-index: 1;
+}
+.blogPost {
+  height: 3759px;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 84px 192px 3623px;
+  box-sizing: border-box;
+  gap: 5571px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: "IBM Plex Mono";
+}
+@media screen and (max-width: 1525px) {
+  .blogPost {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .productsGrid {
+    display: none;
+  }
+  .sharingContent {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+  .instanceParent {
+    gap: 56px;
+  }
+  .blogPost {
+    gap: 2785px;
+    padding-left: 96px;
+    padding-right: 96px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .theScienceOf {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .articleContent,
+  .lastUpdated0ct182022Parent {
+    gap: 22px;
+  }
+  .instanceParent {
+    gap: 28px;
+  }
+  .blogPost {
+    gap: 1393px;
+    padding-left: 48px;
+    padding-right: 48px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .probioticsalways {
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .theScienceOf {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .benefitsOfSkincare,
+  .conclusion,
+  .disclaimer,
+  .howItWorks,
+  .lastUpdated0ct,
+  .likeWhatYou,
+  .theScienceOf1 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .socialIcons {
+    flex-wrap: wrap;
+  }
+}

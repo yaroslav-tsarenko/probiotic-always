@@ -1,0 +1,128 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+.frameChild {
+  background-color: #f0f8ec;
+}
+.frameItem {
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  height: 341px;
+  position: relative;
+}
+.greenVitalityBlend {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.revitalizeWithNutrientRich {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.greenVitalityBlendParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.div {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 70px;
+  white-space: nowrap;
+}
+.frameInner {
+  height: 23px;
+  width: 23px;
+  position: relative;
+  border-radius: 1px;
+}
+.div1 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.parent,
+.starParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.starParent {
+  width: 61px;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+.parent {
+  align-items: flex-start;
+  gap: 28px;
+}
+.frameButton {
+  height: 37px;
+  flex: 1;
+  min-width: 113px;
+}
+.frameChild1 {
+  height: 37px;
+  width: 151px;
+}
+.frameContainer {
+  width: 337px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.button {
+  align-self: stretch;
+  height: 56px;
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.frameGroup {
+  width: 349px;
+  max-width: 100%;
+}
+.frameParent {
+  width: 364px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 22px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+@media screen and (max-width: 450px) {
+  .div,
+  .greenVitalityBlend {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}

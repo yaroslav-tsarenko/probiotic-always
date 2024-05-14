@@ -1,0 +1,253 @@
+.featuredProducts {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.elevateYourHealth {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.featuredProductsParent,
+.frameContainer {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.featuredProductsParent {
+  width: 659px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 0 21px;
+  box-sizing: border-box;
+}
+.frameDiv,
+.frameGroup {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameDiv {
+  width: 1536px;
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 26.7px;
+  text-align: left;
+  font-size: 22px;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 44px;
+}
+.immuneSystemBoosting {
+  width: 461px;
+  position: relative;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-family: "IBM Plex Mono";
+  display: inline-block;
+  max-width: 100%;
+}
+.armorForYour {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.frameChild {
+  height: 44px;
+  width: 139px;
+}
+.frameItem {
+  height: 44px;
+  flex: 1;
+  min-width: 109px;
+}
+.frameInner {
+  height: 44px;
+  width: 149px;
+}
+.frameParent3 {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 22px;
+  max-width: 100%;
+}
+.supportYourImmune {
+  width: 578px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.immuneSystemBoostingComplexParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.button {
+  width: 195.4px;
+  height: 64px;
+}
+.frameParent2,
+.frameWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent2 {
+  align-self: stretch;
+  gap: 36px;
+}
+.frameWrapper1 {
+  width: 637px;
+  padding: 125.5px 0 0;
+  box-sizing: border-box;
+  min-width: 637px;
+}
+.rectangleDiv {
+  align-self: stretch;
+  width: 748px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #9bae98;
+  display: none;
+  max-width: 100%;
+}
+.naturalBodymock2x1 {
+  height: 585px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.frameParent1,
+.rectangleParent {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: 8px;
+  background-color: #9bae98;
+  display: flex;
+  align-items: flex-start;
+  min-width: 486px;
+  max-width: 100%;
+}
+.frameParent1 {
+  align-self: stretch;
+  gap: 151px;
+  text-align: left;
+  font-size: 16px;
+}
+.frameParent,
+.frameParent1,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1536px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 112px;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 112px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 42px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+@media screen and (max-width: 1650px) {
+  .frameWrapper1 {
+    flex: 1;
+  }
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .frameWrapper1,
+  .rectangleParent {
+    min-width: 100%;
+  }
+  .frameParent1 {
+    gap: 75px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .featuredProducts {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .frameGroup {
+    gap: 22px;
+  }
+  .armorForYour {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .frameParent3 {
+    flex-wrap: wrap;
+  }
+  .frameParent2 {
+    gap: 18px;
+  }
+  .frameParent1 {
+    gap: 38px;
+  }
+  .frameParent {
+    gap: 56px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .featuredProducts {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .armorForYour {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .frameParent1 {
+    gap: 19px;
+  }
+  .frameParent {
+    gap: 28px;
+  }
+}

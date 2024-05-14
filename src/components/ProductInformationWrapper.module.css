@@ -1,0 +1,806 @@
+.productInformationAccuracy {
+  margin: 0;
+  width: 496px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.weStriveTo {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.productInfoInnerRows {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.weOnlyCollectInformationNe {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.theInformationOnContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.yourInformationIsSecurelyS {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.weRecommendConsultingContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.theStatementsOnThisWebsite {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.theStatementsOnContainer {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.individualResultsMayVaryA {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.individualResultsMayContainer {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.byUsingThisWebsiteYouAgr {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.byUsingThisContainer {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.informationRows,
+.productInfoInnerRowsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.informationRows {
+  width: 864px;
+  gap: 12px;
+  font-size: 16px;
+}
+.productInfoInnerRowsParent {
+  align-self: stretch;
+  gap: 16px;
+}
+.productInformationAccuracy1 {
+  margin: 0;
+  width: 496px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.weStriveTo1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.productInformationAccuracyParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.yourDataIsUsedToImproveU {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.theInformationOnContainer1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.weNeverSellOrShareYourIn {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.weRecommendConsultingContainer1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.theStatementsOnThisWebsite1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.theStatementsOnContainer1 {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.individualResultsMayVaryA1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.individualResultsMayContainer1 {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.byUsingThisWebsiteYouAgr1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.byUsingThisContainer1 {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.frameParent,
+.theInformationOnThisWebsitParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.theInformationOnThisWebsitParent {
+  width: 864px;
+  gap: 12px;
+  font-size: 16px;
+}
+.frameParent {
+  align-self: stretch;
+  gap: 16px;
+}
+.productInformationAccuracy2 {
+  margin: 0;
+  width: 496px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.weStriveTo2 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.productInformationAccuracyGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.cookiesPlayACrucialRoleIn {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.theInformationOnContainer2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.youHaveTheChoiceToAccept {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.weRecommendConsultingContainer2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.theStatementsOnThisWebsite2 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.theStatementsOnContainer2 {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.individualResultsMayVaryA2 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.individualResultsMayContainer2 {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.byUsingThisWebsiteYouAgr2 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.byUsingThisContainer2 {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.frameGroup,
+.theInformationOnThisWebsitGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.theInformationOnThisWebsitGroup {
+  width: 864px;
+  gap: 12px;
+  font-size: 16px;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: 16px;
+}
+.productInformationAccuracy3 {
+  margin: 0;
+  width: 496px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.weStriveTo3 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.productInformationAccuracyContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.weDoNotHaveControlOverTh {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.theInformationOnContainer3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.pleaseExerciseCautionAndRe {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.weRecommendConsultingContainer3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.theStatementsOnThisWebsite3 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.theStatementsOnContainer3 {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.individualResultsMayVaryA3 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.individualResultsMayContainer3 {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.byUsingThisWebsiteYouAgr3 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.byUsingThisContainer3 {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.frameContainer,
+.theInformationOnThisWebsitContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.theInformationOnThisWebsitContainer {
+  width: 864px;
+  gap: 12px;
+  font-size: 16px;
+}
+.frameContainer {
+  align-self: stretch;
+  gap: 16px;
+}
+.productInformationAccuracy4 {
+  margin: 0;
+  width: 496px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.weStriveTo4 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.productInformationAccuracyParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.usersMayDownloadAndPrintC {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.theInformationOnContainer4 {
+  width: 864px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.anyUnauthorizedUseOfConten {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.weRecommendConsultingContainer4 {
+  width: 864px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.theStatementsOnThisWebsite4 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.theStatementsOnContainer4 {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+}
+.individualResultsMayVaryA4 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.individualResultsMayContainer4 {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+}
+.byUsingThisWebsiteYouAgr4 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.byUsingThisContainer4 {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+}
+.frameDiv,
+.theInformationOnThisWebsitParent1 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.theInformationOnThisWebsitParent1 {
+  width: 1191px;
+  display: none;
+  gap: 12px;
+  font-size: 16px;
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+}
+.productInformationAccuracy5 {
+  margin: 0;
+  width: 496px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.weStriveTo5 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.productInformationAccuracyParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.weUseRobustEncryptionAndA {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.theInformationOnContainer5 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.accessToPersonalInformation {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.weRecommendConsultingContainer5 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.theStatementsOnThisWebsite5 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.theStatementsOnContainer5 {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.individualResultsMayVaryA5 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.individualResultsMayContainer5 {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.byUsingThisWebsiteYouAgr5 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.byUsingThisContainer5 {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.frameParent1,
+.theInformationOnThisWebsitParent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.theInformationOnThisWebsitParent2 {
+  width: 864px;
+  gap: 12px;
+  font-size: 16px;
+}
+.frameParent1 {
+  align-self: stretch;
+  gap: 16px;
+}
+.productInformationAccuracy6 {
+  margin: 0;
+  width: 496px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.weStriveTo6 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.productInformationAccuracyParent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.weDoNotKnowinglyCollectIn {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.theInformationOnContainer6 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.ifYouBelieveAMinorHasPro {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.weRecommendConsultingContainer6 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.theStatementsOnThisWebsite6 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.theStatementsOnContainer6 {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.individualResultsMayVaryA6 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.individualResultsMayContainer6 {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.byUsingThisWebsiteYouAgr6 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.byUsingThisContainer6 {
+  width: 1191px;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  display: none;
+  max-width: 100%;
+}
+.frameParent2,
+.theInformationOnThisWebsitParent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.theInformationOnThisWebsitParent3 {
+  width: 864px;
+  gap: 12px;
+  font-size: 16px;
+}
+.frameParent2 {
+  align-self: stretch;
+  gap: 16px;
+}
+.instanceParent,
+.productInformationWrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.instanceParent {
+  width: 1536px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 190px 0 0;
+  gap: 36px;
+}
+.productInformationWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 112px;
+  text-align: left;
+  font-size: 22px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+@media screen and (max-width: 1225px) {
+  .instanceParent {
+    padding-right: 95px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .instanceParent {
+    gap: 18px;
+    padding-right: 47px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .productInformationAccuracy,
+  .productInformationAccuracy1,
+  .productInformationAccuracy2,
+  .productInformationAccuracy3,
+  .productInformationAccuracy4,
+  .productInformationAccuracy5,
+  .productInformationAccuracy6 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .instanceParent {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

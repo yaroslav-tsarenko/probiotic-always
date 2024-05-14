@@ -1,0 +1,801 @@
+.probioticsalways,
+.products {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.probioticsalways {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.products {
+  display: inline-block;
+  min-width: 42px;
+}
+.productsWrapper {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products1 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 84px;
+}
+.productsContainer {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products2 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 84px;
+}
+.productsFrame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+  white-space: nowrap;
+}
+.products3 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 42px;
+}
+.frameDiv {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px;
+}
+.products4 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 104px;
+}
+.productsWrapper1 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  white-space: nowrap;
+}
+.instanceParent {
+  width: 596px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  font-size: 16px;
+}
+.userIcon,
+.userIcon1 {
+  height: 29px;
+  width: 29px;
+  position: relative;
+  border-radius: 42.59px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.userIcon1 {
+  height: 36px;
+  width: 36px;
+  border-radius: 52.88px;
+}
+.probioticsalwaysParent,
+.userParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.userParent {
+  width: 88px;
+}
+.probioticsalwaysParent {
+  align-self: stretch;
+  max-width: 100%;
+  gap: 20px;
+}
+.image72NoBg,
+.image72NoBg1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 8px;
+}
+.image72NoBg {
+  background-color: #f0f4e5;
+}
+.image72NoBg1 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.image72NoBgParent {
+  align-self: stretch;
+  height: 567px;
+  position: relative;
+}
+.image72NoBg2,
+.image72NoBg3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 8px;
+}
+.image72NoBg2 {
+  background-color: #f0f4e5;
+}
+.image72NoBg3 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.image72NoBgGroup {
+  height: 189px;
+  flex: 1;
+  position: relative;
+  min-width: 168px;
+}
+.image72NoBg4,
+.image72NoBg5 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 8px;
+}
+.image72NoBg4 {
+  background-color: #f0f4e5;
+}
+.image72NoBg5 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.image72NoBgContainer {
+  height: 189px;
+  flex: 1;
+  position: relative;
+  opacity: 0.5;
+  min-width: 168px;
+}
+.frameContainer,
+.frameParent1 {
+  width: 523.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5.9px;
+  max-width: 100%;
+}
+.frameContainer {
+  width: 776.3px;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 776.3000000000029px;
+}
+.greenVitalityBlend {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.frameChild {
+  height: 25.3px;
+  width: 25.3px;
+  position: relative;
+  border-radius: 1.1px;
+}
+.div {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 20px;
+  text-transform: capitalize;
+  flex-shrink: 0;
+}
+.starParent {
+  width: 67px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 8.8px;
+}
+.reviews {
+  flex: 1;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #6b6e68;
+}
+.frameParent3 {
+  width: 227px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 16.4px;
+  color: #000;
+}
+.revitalizeWithNutrientRich {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.greenVitalityBlendParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  flex-shrink: 0;
+  font-size: 32px;
+}
+.goodFor {
+  width: 128px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameItem {
+  height: 37px;
+  width: 134px;
+}
+.frameInner {
+  height: 37px;
+  flex: 1;
+}
+.frameParent4,
+.goodForParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameParent4 {
+  flex: 1;
+  align-items: flex-start;
+  gap: 12px;
+  min-width: 190px;
+}
+.goodForParent {
+  width: 434px;
+  align-items: center;
+  gap: 13px;
+  max-width: 100%;
+  font-size: 18px;
+}
+.get,
+.off {
+  font-family: "Proxima Nova";
+}
+.span {
+  text-decoration: line-through;
+}
+.get30OffContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 120%;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+}
+.get30OffYourFirstSetSubWrapper {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #efefef;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px 49px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  color: #000;
+}
+.groupInput {
+  cursor: pointer;
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.oneTimePurchase {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+.frameParent7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.div1 {
+  height: 13px;
+  width: 57px;
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 120%;
+  text-transform: capitalize;
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.frameParent6,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+.frameParent6 {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameWrapper {
+  align-self: stretch;
+  border-radius: 8px 8px 0 0;
+  background-color: #f6ffe8;
+  justify-content: flex-start;
+  padding: 10px 38px 10px 30px;
+  box-sizing: border-box;
+}
+.rectangleDiv {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 8px 8px;
+  background-color: #ffe6f4;
+}
+.frameChild1 {
+  cursor: pointer;
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.subscribeAndSave {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+.frameParent10,
+.subscribeAndSaveWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameParent10 {
+  gap: 9px;
+}
+.div2 {
+  text-decoration: line-through;
+  font-weight: 100;
+}
+.div2,
+.div3 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 13px;
+  text-transform: capitalize;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frameParent9,
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.parent {
+  width: 121px;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 12px;
+  text-align: center;
+}
+.frameParent9 {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: 20px;
+}
+.group {
+  height: 16px;
+  flex: 1;
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  color: #be3982;
+  max-width: 100%;
+  width: auto;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #be3981;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 15px 4px 17px;
+  max-width: 100%;
+}
+.frameParent5,
+.frameParent8,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent8 {
+  width: 426px;
+  flex-direction: column;
+  gap: 19px;
+  z-index: 1;
+}
+.frameParent5,
+.rectangleParent {
+  align-self: stretch;
+}
+.rectangleParent {
+  flex-direction: row;
+  padding: 19px 30px 17px;
+  box-sizing: border-box;
+  position: relative;
+  color: #000;
+}
+.frameParent5 {
+  flex-direction: column;
+}
+.quantityType {
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 118px;
+  white-space: nowrap;
+}
+.frameChild2,
+.frameChild3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 8px;
+  background-color: #efefef;
+}
+.frameChild3 {
+  background-color: #fdfdfd;
+}
+.div4,
+.h2,
+.h21 {
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+}
+.h2 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  min-width: 15px;
+}
+.div4,
+.h21 {
+  width: 14px;
+}
+.h21 {
+  margin: 0;
+  width: 20px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.container,
+.rectangleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  z-index: 1;
+}
+.container {
+  width: 271px;
+  justify-content: space-between;
+  gap: 20px;
+}
+.rectangleContainer {
+  align-self: stretch;
+  border-radius: 8px;
+  justify-content: flex-start;
+  padding: 16px 58px 17px;
+  position: relative;
+  gap: 10px;
+}
+.addToBag {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  min-width: 96px;
+  z-index: 1;
+}
+.addToBagWrapper {
+  width: 388px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 16px;
+  font-family: "Proxima Nova";
+}
+.quantityTypeParent,
+.rectangleGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleGroup {
+  align-self: stretch;
+  border-radius: 8px;
+  padding: 10px 11px 15.3px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 17.7px;
+  font-size: 30px;
+}
+.quantityTypeParent {
+  width: 423px;
+  gap: 12px;
+  font-size: 18px;
+  font-family: Inter;
+}
+.frameButton {
+  align-self: stretch;
+  flex: 1;
+}
+.get15Off {
+  width: 272px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.get15OffEveryOrderPlusWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+}
+.frameParent2,
+.instanceGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.instanceGroup {
+  align-self: stretch;
+  height: 100px;
+  gap: 12px;
+  color: #6e9e24;
+}
+.frameParent2 {
+  width: 520px;
+  padding: 0 19px 0 0;
+  box-sizing: border-box;
+  gap: 24px;
+  min-width: 520px;
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 14px;
+  color: #343434;
+  font-family: "Proxima Nova";
+}
+.frameGroup,
+.frameParent,
+.productDetails3Inner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1536px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 56px;
+}
+.productDetails3Inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 112px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: "IBM Plex Mono";
+}
+@media screen and (max-width: 1350px) {
+  .frameContainer {
+    flex: 1;
+  }
+  .frameParent2 {
+    flex: 1;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .probioticsalwaysParent {
+    flex-wrap: wrap;
+  }
+  .frameContainer {
+    min-width: 100%;
+  }
+  .productDetails3Inner {
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .instanceParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .greenVitalityBlend {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .get30OffYourFirstSetSubWrapper {
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+  .div4,
+  .h2,
+  .h21 {
+    font-size: 24px;
+    line-height: 22px;
+  }
+  .frameParent2 {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: 28px;
+  }
+  .productDetails3Inner {
+    padding-bottom: 47px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .probioticsalways {
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+  .greenVitalityBlend {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .frameParent6,
+  .frameParent9,
+  .goodForParent {
+    flex-wrap: wrap;
+  }
+  .div4,
+  .h2,
+  .h21 {
+    font-size: 18px;
+    line-height: 17px;
+  }
+  .frameButton,
+  .rectangleContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
