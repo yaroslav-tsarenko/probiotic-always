@@ -1,6 +1,7 @@
-import { FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
 import { Button } from "@mui/material";
 import styles from "./GroupComponent.module.css";
+import {Link} from "react-router-dom";
 
 const GroupComponent: FunctionComponent = () => {
   return (
@@ -63,7 +64,7 @@ const GroupComponent: FunctionComponent = () => {
                     height: 72,
                   }}
                 >
-                  sUBSCRIBE
+                  SUBSCRIBE
                 </Button>
               </div>
               <div className={styles.icon}>
@@ -75,21 +76,21 @@ const GroupComponent: FunctionComponent = () => {
           </div>
           <div className={styles.frameParent2}>
             <div className={styles.homeParent}>
-              <div className={styles.home}>HOME</div>
-              <div className={styles.products}>PRODUCTS</div>
-              <div className={styles.credit}>CREDIT</div>
-              <div className={styles.aboutUs}>ABOUT US</div>
-              <div className={styles.contact}>CONTACT</div>
+              <Link to="/" className={styles.home}>HOME</Link>
+              <Link to="/product-listing" className={styles.products}>PRODUCTS</Link>
+              <Link to="/credit" className={styles.credit}>CREDIT</Link>
+              <Link to="/about-us" className={styles.aboutUs}>ABOUT US</Link>
+              <Link to="contact" className={styles.contact}>CONTACT</Link>
             </div>
             <div className={styles.howItMadeParent}>
-              <div className={styles.howItMade}>hOW IT MADE</div>
-              <div className={styles.subscribeSave}>{`sUBSCRIBE & SAVE`}</div>
-              <div className={styles.privacyPolicy}>pRIVACY POLICY</div>
-              <div className={styles.termsCondition}>{`TERMS & CONDITION`}</div>
-              <div className={styles.cancellationPolicy}>
+              <Link to="/how-it-made" className={styles.howItMade}>HOW IT MADE</Link>
+              <Link to="/subscribe-save" className={styles.subscribeSave}>{`SUBSCRIBE & SAVE`}</Link>
+              <Link to="/privacy-policy" className={styles.privacyPolicy}>PRIVACY POLICY</Link>
+              <Link to="/terms-and-conditions" className={styles.termsCondition}>{`TERMS & CONDITION`}</Link>
+              <Link to="/cancellation-policy" className={styles.cancellationPolicy}>
                 CANCELLATION POLICY
-              </div>
-              <div className={styles.returnPolicy}>RETURN POLICY</div>
+              </Link>
+              <Link to="/return-policy" className={styles.returnPolicy}>RETURN POLICY</Link>
             </div>
           </div>
         </div>

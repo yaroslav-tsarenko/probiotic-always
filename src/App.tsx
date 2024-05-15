@@ -10,6 +10,15 @@ import ProductListing from "./pages/ProductListing";
 import ProductDetails from "./pages/ProductDetails";
 import ProductDetails1 from "./pages/ProductDetails1";
 import ProductDetails2 from "./pages/ProductDetails2";
+import BlogListing from "./pages/BlogListing";
+import Contact from "./pages/Contact";
+import AboutUs from "./pages/AboutUs";
+import Credit from "./pages/Credit";
+import TermsCondition from "./pages/TermsCondition";
+import CancellationPolicy from "./pages/CancellationPolicy";
+import HowItMade from "./pages/HowItMade";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import SubscribeSave from "./pages/SubscribeSave";
 
 function App() {
   const action = useNavigationType();
@@ -66,6 +75,16 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
+      <Route path="/product-listing" element={<ProductListing />} />
+      <Route path="/blog" element={<BlogListing/>} />
+      <Route path="/contact-us" element={<Contact/>} />
+      <Route path="/about-us" element={<AboutUs/>} />
+      <Route path="/credit" element={<Credit/>} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
+      <Route path="/cancellation-policy" element={<CancellationPolicy/>} />
+      <Route path="/subscribe-save" element={<SubscribeSave/>} />
+      <Route path="/terms-and-conditions" element={<TermsCondition/>} />
+      <Route path="/how-it-made" element={<HowItMade/>} />
       <Route path="/product-listing1" element={<ProductListing />} />
       <Route path="/product-details2" element={<ProductDetails />} />
       <Route path="/product-details3" element={<ProductDetails1 />} />

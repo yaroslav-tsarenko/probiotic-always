@@ -5,6 +5,7 @@ import GroupComponent2 from "../components/GroupComponent2";
 import GroupComponent1 from "../components/GroupComponent1";
 import GroupComponent from "../components/GroupComponent";
 import styles from "./AboutUs.module.css";
+import FrameComponent5 from "../components/FrameComponent5";
 
 const AboutUs: FunctionComponent = () => {
   return (
@@ -47,6 +48,7 @@ const AboutUs: FunctionComponent = () => {
         />
       </div>
       <main className={styles.frameParent}>
+        <FrameComponent5 />
         <FrameComponent1 />
         <section className={styles.healthJourneyContainerWrapper}>
           <HealthJourneyContainer />

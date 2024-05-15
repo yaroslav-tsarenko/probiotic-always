@@ -3,6 +3,7 @@ import GroupComponent2 from "../components/GroupComponent2";
 import FrameComponent5 from "../components/FrameComponent5";
 import GroupComponent3 from "../components/GroupComponent3";
 import styles from "./Contact.module.css";
+import GroupComponent from "../components/GroupComponent";
 
 const Contact: FunctionComponent = () => {
   return (
@@ -40,9 +41,10 @@ const Contact: FunctionComponent = () => {
         <img className={styles.frameChild} alt="" src="/group-1000005946.svg" />
       </div>
       <main className={styles.content}>
-        <GroupComponent2 />
-        <FrameComponent5 contact="Contact" />
+        <FrameComponent5 />
         <GroupComponent3 />
+        <GroupComponent2 />
+        <GroupComponent />
       </main>
     </div>
   );

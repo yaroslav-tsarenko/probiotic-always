@@ -199,6 +199,9 @@
   position: relative;
   line-height: 32px;
   text-transform: uppercase;
+  color: #353535;
+  text-decoration: none;
+
 }
 .home {
   width: 93px;
@@ -226,18 +229,26 @@
 .privacyPolicy,
 .subscribeSave {
   width: 165px;
+
   position: relative;
   line-height: 32px;
+  color: #353535;
+  text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
 }
 .privacyPolicy,
 .subscribeSave {
   width: 167px;
+  color: #353535;
+
+  text-decoration: none;
 }
 .termsCondition {
   width: 192px;
   display: inline-block;
+  color: #353535;
+  text-decoration: none;
 }
 .cancellationPolicy,
 .returnPolicy,
@@ -245,13 +256,20 @@
   position: relative;
   line-height: 32px;
   text-transform: uppercase;
+  color: #353535;
+
+  text-decoration: none;
 }
 .cancellationPolicy {
   align-self: stretch;
+  color: #353535;
+  text-decoration: none;
 }
 .returnPolicy {
   width: 167px;
   display: inline-block;
+  color: #353535;
+  text-decoration: none;
 }
 .howItMadeParent {
   flex: 1;
@@ -260,6 +278,8 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 12px;
+  color: #353535;
+  text-decoration: none;
   min-width: 144px;
 }
 .frameGroup,

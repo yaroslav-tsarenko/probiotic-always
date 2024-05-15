@@ -4,6 +4,7 @@ import FrameComponent2 from "../components/FrameComponent2";
 import FrameComponent from "../components/FrameComponent";
 import GroupComponent from "../components/GroupComponent";
 import styles from "./BlogListing.module.css";
+import FrameComponent5 from "../components/FrameComponent5";
 
 const BlogListing: FunctionComponent = () => {
   return (
@@ -17,6 +18,7 @@ const BlogListing: FunctionComponent = () => {
         />
       </div>
       <main className={styles.frameParent}>
+          <FrameComponent5 />
         <FrameComponent2 blogListing="Blog Listing" />
         <FrameComponent />
         <GroupComponent />

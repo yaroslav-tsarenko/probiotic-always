@@ -1,5 +1,6 @@
 import {FC, FunctionComponent} from "react";
 import styles from "./FrameComponent5.module.css";
+import {Link} from "react-router-dom";
 
 interface FrameComponent5Props {
   contact?: string;
@@ -42,21 +43,21 @@ const FrameComponent5: FC<FrameComponent5Props> = (props) => {
             </div>
           </div>
           <div className={styles.instanceParent}>
-            <div className={styles.productsWrapper}>
+            <Link to="/" className={styles.productsWrapper}>
               <div className={styles.products}>Home</div>
-            </div>
-            <div className={styles.productsContainer}>
+            </Link>
+            <Link to="/product-listing" className={styles.productsContainer}>
               <div className={styles.products1}>PRODUCTS</div>
-            </div>
-            <div className={styles.productsFrame}>
+            </Link>
+            <Link to="/about-us" className={styles.productsFrame}>
               <div className={styles.products2}>About Us</div>
-            </div>
-            <div className={styles.frameDiv}>
+            </Link>
+            <Link to="/blog" className={styles.frameDiv}>
               <div className={styles.products3}>Blog</div>
-            </div>
-            <div className={styles.productsWrapper1}>
+            </Link>
+            <Link to="/contact-us" className={styles.productsWrapper1}>
               <div className={styles.products4}>Contact Us</div>
-            </div>
+            </Link>
           </div>
           <div className={styles.frameWrapper1}>
             <div className={styles.frameParent1}>

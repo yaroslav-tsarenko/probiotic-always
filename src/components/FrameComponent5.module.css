@@ -145,6 +145,8 @@
 .productsWrapper {
   background-color: transparent;
   display: flex;
+  text-decoration: none;
+  color: white;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
@@ -160,6 +162,8 @@
 .productsContainer {
   background-color: transparent;
   display: flex;
+  text-decoration: none;
+  color: white;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
@@ -177,6 +181,8 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  text-decoration: none;
+  color: white;
   justify-content: flex-start;
   padding: 10px;
   white-space: nowrap;
@@ -195,6 +201,8 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 10px;
+  text-decoration: none;
+  color: white;
 }
 .products4 {
   position: relative;
@@ -207,6 +215,8 @@
 .productsWrapper1 {
   display: flex;
   flex-direction: row;
+  text-decoration: none;
+  color: white;
   align-items: flex-start;
 }
 .productsWrapper1 {

@@ -4,6 +4,7 @@ import FrameComponent5 from "../components/FrameComponent5";
 import GroupComponent5 from "../components/GroupComponent5";
 import GroupComponent4 from "../components/GroupComponent4";
 import styles from "./HowItMade.module.css";
+import GroupComponent from "../components/GroupComponent";
 
 const HowItMade: FunctionComponent = () => {
   return (
@@ -45,6 +46,7 @@ const HowItMade: FunctionComponent = () => {
         <FrameComponent5 contact="Crafting Probiotic Harmony" />
         <GroupComponent5 />
         <GroupComponent4 />
+        <GroupComponent />
       </main>
     </div>
   );

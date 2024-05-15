@@ -6,6 +6,9 @@ import FrameComponent7 from "../components/FrameComponent7";
 import GroupComponent5 from "../components/GroupComponent5";
 import GroupComponent4 from "../components/GroupComponent4";
 import styles from "./ProductListing.module.css";
+import {Link} from "react-router-dom";
+import FrameComponent5 from "../components/FrameComponent5";
+import GroupComponent from "../components/GroupComponent";
 
 const ProductListing: FunctionComponent = () => {
   return (
@@ -13,21 +16,21 @@ const ProductListing: FunctionComponent = () => {
       <div className={styles.probioticsalwaysParent}>
         <h3 className={styles.probioticsalways}>probioticsalways</h3>
         <div className={styles.instanceParent}>
-          <div className={styles.productsWrapper}>
+          <Link to="/" className={styles.productsWrapper}>
             <div className={styles.products}>Home</div>
-          </div>
-          <div className={styles.productsContainer}>
+          </Link>
+          <Link to="/product-listing" className={styles.productsContainer}>
             <div className={styles.products1}>PRODUCTS</div>
-          </div>
-          <div className={styles.productsFrame}>
+          </Link>
+          <Link to="/about-us" className={styles.productsFrame}>
             <div className={styles.products2}>About Us</div>
-          </div>
-          <div className={styles.frameDiv}>
+          </Link>
+          <Link to="/blog" className={styles.frameDiv}>
             <div className={styles.products3}>Blog</div>
-          </div>
-          <div className={styles.productsWrapper1}>
+          </Link>
+          <Link to="/contact-us" className={styles.productsWrapper1}>
             <div className={styles.products4}>Contact Us</div>
-          </div>
+          </Link>
         </div>
         <div className={styles.userParent}>
           <img className={styles.userIcon} alt="" src="/user.svg" />
@@ -44,7 +47,7 @@ const ProductListing: FunctionComponent = () => {
         />
       </div>
       <main className={styles.instanceGroup}>
-        <GroupComponent6 />
+        <FrameComponent5 />
         <section className={styles.frameWrapper}>
           <div className={styles.rectangleParent}>
             <div className={styles.frameItem} />
@@ -261,6 +264,7 @@ const ProductListing: FunctionComponent = () => {
         </section>
         <GroupComponent5 />
         <GroupComponent4 />
+        <GroupComponent />
       </main>
     </div>
   );

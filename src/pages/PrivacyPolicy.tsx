@@ -4,6 +4,7 @@ import TermsConditionWrapper from "../components/TermsConditionWrapper";
 import ProductInformationWrapper from "../components/ProductInformationWrapper";
 import GroupComponent5 from "../components/GroupComponent5";
 import styles from "./PrivacyPolicy.module.css";
+import GroupComponent from "../components/GroupComponent";
 
 const PrivacyPolicy: FunctionComponent = () => {
   return (
@@ -41,10 +42,9 @@ const PrivacyPolicy: FunctionComponent = () => {
         <img className={styles.frameChild} alt="" src="/group-1000005946.svg" />
       </div>
       <main className={styles.instanceGroup}>
-        <GroupComponent4 />
         <TermsConditionWrapper termsCondition="Privacy Policy" />
         <ProductInformationWrapper />
-        <GroupComponent5 />
+        <GroupComponent />
       </main>
     </div>
   );
